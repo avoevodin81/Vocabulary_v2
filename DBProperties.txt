@@ -1,0 +1,4 @@
+localhost:3306
+root
+4741
+vocabulary

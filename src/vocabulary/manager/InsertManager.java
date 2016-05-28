@@ -1,0 +1,20 @@
+package vocabulary.manager;
+
+import vocabulary.Words.Word;
+import vocabulary.sql.DBConnector;
+
+/**
+ * Created by Test on 11.05.2016.
+ */
+public class InsertManager {
+
+    public void insert(Word word, String tableName){
+        DBConnector dbConnector = new DBConnector();
+        dbConnector.updateQuery(String.format("INSERT INTO %s (english, russian, new) values ('%s', '%s', %b)", tableName, comaSearch(word.getEng()), comaSearch(word.getRus()), word.isNew()));
+        dbConnector.exitDB();
+    }
+
+    private String comaSearch(String s) {
+        return s.replaceAll("\'", "\'\'");
+    }
+}
