@@ -11,8 +11,6 @@ public class StartVocabulary {
     public static void main(String[] args) {
 
         MainFrame mainFrame = new MainFrame();
-        //Test push
-        System.out.println("Push");
 
     }
 }
