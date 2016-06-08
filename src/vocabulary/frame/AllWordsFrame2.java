@@ -37,6 +37,7 @@ public class AllWordsFrame2 extends JFrame {
             manager = new AllWordsFrameUniversalManager(connection, tableName);
         } catch (SQLException e) {
             e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
         }
         JFrame frame = new JFrame();
 
@@ -132,6 +133,7 @@ public class AllWordsFrame2 extends JFrame {
                         System.out.println(thread.isAlive());
                     } catch (SQLException e1) {
                         e1.printStackTrace();
+                        JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
                     }
                 }
                 //System.exit(0);

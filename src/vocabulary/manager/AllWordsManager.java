@@ -3,6 +3,7 @@ package vocabulary.manager;
 import vocabulary.Words.Word;
 import vocabulary.sql.DBConnector;
 
+import javax.swing.*;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -30,6 +31,7 @@ public class AllWordsManager {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
         }
         return count;
     }
@@ -62,6 +64,7 @@ public class AllWordsManager {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
         }
         dbConnector.exitDB();
         return false;
@@ -80,6 +83,7 @@ public class AllWordsManager {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
         }
         dbConnector.exitDB();
         return null;
@@ -118,6 +122,7 @@ public class AllWordsManager {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
         }
         dbConnector.exitDB();
     }

@@ -251,8 +251,10 @@ public class MainFrame extends JFrame {
                                                        }
                                                    } catch (FileNotFoundException e1) {
                                                        e1.printStackTrace();
+                                                       JOptionPane.showMessageDialog(null, "Something went wrong! " + e1.toString());
                                                    } catch (IOException e1) {
                                                        e1.printStackTrace();
+                                                       JOptionPane.showMessageDialog(null, "Something went wrong! " + e1.toString());
                                                    }
                                                    JOptionPane.showMessageDialog(null, "File is loaded. " + i + " words a added.");
                                                }

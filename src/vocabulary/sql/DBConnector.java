@@ -1,5 +1,6 @@
 package vocabulary.sql;
 
+import javax.swing.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.sql.*;
@@ -56,6 +57,7 @@ public class DBConnector {
             nameDB = scn.next();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
         }
     }
 
@@ -78,8 +80,10 @@ public class DBConnector {
                 mysqlConnect = DriverManager.getConnection(url, properties);
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
+                JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
             } catch (SQLException e) {
                 e.printStackTrace();
+                JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
             }
         }
     }
@@ -89,6 +93,7 @@ public class DBConnector {
             mysqlConnect.close();
         } catch (SQLException e) {
             e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
         }
     }
 
@@ -99,6 +104,7 @@ public class DBConnector {
             result = stmt.executeQuery(query);
         } catch (SQLException e) {
             e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
         }
         return result;
     }
@@ -110,6 +116,7 @@ public class DBConnector {
             stmt.executeUpdate(query);
         } catch (SQLException e) {
             e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
         }
     }
 }
