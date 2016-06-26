@@ -2,6 +2,7 @@ package vocabulary.frame;
 
 import vocabulary.Words.Word;
 import vocabulary.manager.AllWordsManager;
+import vocabulary.manager.Import;
 import vocabulary.manager.InsertManager;
 import vocabulary.sql.DBConnector;
 
@@ -39,7 +40,7 @@ public class MainFrame extends JFrame {
     private String tableName = "vocabulary";
 
     public MainFrame() {
-        super("Vocabulary_v2.0");
+        super("Vocabulary_v2.2.1");
         setFrame();
         setElements();
         addListeners();
@@ -226,41 +227,11 @@ public class MainFrame extends JFrame {
             }
         });
         importButton.addActionListener(new ActionListener() {
-                                           @Override
-                                           public void actionPerformed(ActionEvent e) {
-                                               int i = 0;
-                                               JFileChooser fileChooser = new JFileChooser();
-                                               int ret = fileChooser.showDialog(null, "Select file");
-                                               if (ret == JFileChooser.APPROVE_OPTION) {
-                                                   File file = fileChooser.getSelectedFile();
-                                                   try (FileReader fr = new FileReader(file)) {
-                                                       String s = "";
-                                                       while (fr.ready()) {
-                                                           char temp = (char) fr.read();
-                                                           if (temp == '\r') {
-                                                               i++;
-                                                               String[] strings = s.split(";");
-                                                               Word word = new Word(1, strings[0], strings[1], Boolean.parseBoolean(strings[2]));
-                                                               new InsertManager().insert(word, tableName);
-                                                               s = "";
-                                                           } else if (temp == '\n') {
-                                                               continue;
-                                                           } else if (temp == '\'') {
-                                                               s += "\'" + temp;
-                                                           } else s += "" + temp;
-                                                       }
-                                                   } catch (FileNotFoundException e1) {
-                                                       e1.printStackTrace();
-                                                       JOptionPane.showMessageDialog(null, "Something went wrong! " + e1.toString());
-                                                   } catch (IOException e1) {
-                                                       e1.printStackTrace();
-                                                       JOptionPane.showMessageDialog(null, "Something went wrong! " + e1.toString());
-                                                   }
-                                                   JOptionPane.showMessageDialog(null, "File is loaded. " + i + " words a added.");
-                                               }
-                                           }
-                                       }
-
-        );
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Import i = new Import(tableName);
+                i.importFile();
+            }
+        });
     }
 }
