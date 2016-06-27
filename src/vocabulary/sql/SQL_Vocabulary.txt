@@ -8,5 +8,5 @@ create table vocabulary
  english varchar(255) not null,
  russian varchar(255) not null,
  new bit NOT NULL,
- PRIMARY KEY (id)
+ PRIMARY KEY (wordID)
 )engine=InnoDB;
