@@ -1,0 +1,715 @@
+Are you doing anything this evening?;вы делаете что-нибудь этим вечером?;0
+Are you going to James's party?;Вы собираетесь на вечеринку Джеймса?;0
+Can i have one?;можно мне взять один?;0
+Do you know anyone in London?;ты знаешь кого-нибудь в Лондоне?;0
+Do you know the spelling of Breakfast;ты знаешь как произносится по буквам BREAKFAST;0
+Do you want to come with me?;Вы хотите пойти со мной?;0
+Have you met Mr. Kelly's wife?;Вы уже знакомы с женой мистера Келли?;0
+I like meeting new people and I like talking to them;мне нравиться знакомиться с новыми людьми, и мне нравиться беседовать с ними;0
+I need money to live;я нуждаюсь в деньгах для жизни;0
+I need them;мне они нужны;0
+I sometimes speak to him on the phone;я иногда говорю с ним по телефону;0
+I stayed at my sister's house;я остановился в доме моей сестры;0
+I take my son to school;я отвожу моего сына в школу;0
+I work on Thursdays;я работаю по четвергам;0
+I'm going on my own;Я иду самостоятельно;0
+I'm going to...;я собираюсь...;0
+I'm really tired;я реально устаю;0
+I've just made some coffee. Would you like some?;Я только что приготовил кофе. Вы не хотели бы?;0
+It rains a lot in winter;дождей много зимой;0
+It's a beautiful day today;сегодня прекрасный день;0
+It’s very kind of you;это очень любезно с вашей стороны;0
+She always does everything herself;она всегда все делает сама;0
+She lives on her own now;она живет сама в настоящее время;0
+Somebody’s coming.;Кто-то приближается.;0
+T-shirt;футболка;0
+There’s a lot she can do, though she is only two;много чего она умеет делать, хотя ей только два;0
+UpperCase;верхний регистр;0
+We didn’t do any exercises.;мы не делали никаких упражнений.;0
+Where is you family from;от куда твоя семья;0
+Where’s Anna? Has anybody seen her?;Где Анна? Кто-нибудь видел ее?;0
+Whose umbrella is this?;Чей это зонтик?;0
+You can have some coffee, but I don’t want any.;Вы можете выпить кофе , но я не хочу вовсе.;0
+a quarter past;четверть после;0
+about;приблизительно, около, почти;0
+above;выше, над;1
+abroad;за границу;1
+access;доступ;0
+accident;авария;0
+accountant;бухгалтер;0
+action;действие;1
+actually;на самом деле;1
+adjective;прилагательное;1
+adult;взрослый человек;0
+adverb;наречие;1
+after;после, за;0
+afternoon;время после полудня, дневное время;0
+alarm clock;будильник;0
+all around;вокруг;0
+almost;почти;1
+already;уже;1
+also, as well;также (как правило стоит перед глаголом);1
+always;всегда;0
+amount, quantity;количество;1
+an example of something;пример чего-то;0
+angrily;сердито;0
+another;другой, еще один;1
+any;сколько-нибудь;0
+arm;рука;0
+armchair;кресло;0
+artist, painter;художник;0
+at;о пространстве, у, при, в, на;0
+at all;совсем;0
+at eleven-thirty;предлог, когда речь идет о времени;0
+at home, at school;дома, в школе;0
+at night;ночью;0
+at the cinema;в кино (где);0
+at the moment;на данный момент;0
+at the table;за столом;0
+at the top;на верху;0
+at work;на работе;0
+auntie;тетушка;0
+baby;младенец;0
+back;спина;0
+bag;сумка;0
+balloon;воздушный шар;0
+banana;банан;0
+bat;летучая мышь;0
+beak;клюв;0
+bedroom;спальня;0
+bee;пчела;0
+beef;говядина;1
+before;впереди, прежде, раньше;0
+behind;за;0
+bell;колокольчик;0
+belt;ремень;0
+berry, berries;ягода, ягоды;0
+best;лучший;0
+between;между;0
+biscuit;печенье;1
+board;доска, планка;0
+boiled;кипяченый;0
+bore;зануда;0
+bored;скучающий;1
+boring;скучный;0
+bottom;дно;0
+bowl;миска;0
+box;коробка;0
+brave;отважный, храбрый;0
+bread and butter;хлеб с маслом;0
+breakfast;завтрак;0
+building;здание;0
+bush;куст;0
+busy;занят;0
+butterfly;бабочка;0
+by;с помощью;0
+by day;днем;0
+cabinet;шкаф;0
+cage;клетка;0
+cake;торт, пирожное;0
+canvas;холст;0
+cap;кепка, шапка;0
+capital;столица;0
+cards;карты;0
+case, suitcase;чемодан;0
+cause;причина;1
+ceiling;потолок;0
+cereal;овсянка;0
+change;сдача;0
+chatting;болтать;0
+cheap;дешевый;0
+chemist, pharmacy;аптека;0
+chopsticks;китайские палочки;0
+circle;круг;0
+claw;коготь;0
+clean;чистый;0
+clever;умный;0
+clock;часы большие;0
+clothes;одежда;0
+cloud;облако;0
+coach;междугородний автобус;0
+coat;пальто, пиджак;0
+colorful;красочные;0
+concurrency;совпадение;1
+concurrent;действующий одновременно;1
+conjunction;союз;1
+consonant;согласный звук;0
+consumer;потребитель;1
+contraction;сокращение, сжатие;1
+cooker;плита;0
+cool;прохладный;0
+corner shop;магазин на углу;0
+countable;исчислимое;0
+cross;крест, скрещивание;0
+crow;ворона;0
+cucumber;огурец;0
+cup;чашка;0
+cupboard;буфет;0
+curly;кучерявая;0
+dear;дорогой;0
+decrement;уменьшение;1
+department store;универмаг;0
+describing;описания;0
+desk;письменный стол;0
+different;различный, разный;0
+difficult;трудный;0
+dinner;обед;0
+dirty;грязный;0
+dish;блюдо;0
+do the washing;стирать;0
+do the washing up;мыть посуду;0
+doll;кукла;0
+domestic animal;домашнее животное;0
+donkey;ослик;0
+downstairs;вниз по лестнице;0
+drawer;выдвижной ящик;0
+dress;платье;0
+drum;барабан;0
+during, for;в течение;0
+ear;ухо;0
+early;рано;0
+easy;легко;0
+elephant;слон;0
+else;еще;0
+envelope;конверт;0
+even;даже;1
+evening;вечер;0
+ever;когда-либо, когда-нибудь;0
+everywhere;везде;0
+exactly;именно;1
+example;пример, иллюстрация;0
+exercise;упражнение;0
+expected;ожидаемый;1
+expressions;выражения;0
+eyes;глаза;0
+far;далеко;0
+fast, quickly;быстро;0
+fat;жирный;0
+favourite;любимый;0
+field;поле;0
+file cabinet;шкаф для документов;0
+fir-tree;ель;0
+firm;стойкий, настойчивый, строгий;1
+five past;пять минут после...;0
+flat;плоский, квартира;0
+floor;пол;0
+fluffy;пушистый;0
+fly, flies;муха, мухи;0
+food, meal;еда, пища;0
+for;для;0
+for about half an hour;в течение около половины часа;0
+for dinner;на обед;0
+for joy;от радости;0
+for that;за это;0
+for the first time;в первый раз;1
+foreign;иностранный, зарубежный;1
+foreigner;иностранец;0
+fork;вилка;0
+freezer;морозилка;0
+fridge;холодильник;0
+from;от;0
+from school;из школы;0
+front;передняя сторона, перед;0
+funny;смешно;0
+garden;сад;0
+general;общий;0
+generally;обычно, как правило, в целом;1
+gentle;благородный, вежливый;0
+glass;стекло, стакан;0
+glasses;очки;0
+gloves;перчатки;0
+goat;коза;0
+grain;зерно;0
+great;великий;0
+gun;пистолет, огнестр оружие, ружье;0
+hair;волосы;0
+half;половина;0
+ham;ветчина;0
+happy;счастливый;0
+hard;твердый;0
+hardly;вряд ли;1
+hare;заяц;0
+hat;шапка;0
+have a look;вот, смотри;0
+have some cheese;угощайся сыром;0
+head;голова;0
+heavy;тяжелый;0
+hen;курица;0
+here;вот, здесь;0
+here you are;вот, пожалуйста;1
+herself;сама;0
+hiding;прячется;0
+high;высокий (здание);0
+himself;сам;0
+honey;мед;0
+hostel;общежитиe;0
+hot;жаркий;0
+house;дом;0
+housewife;домохозяйка;0
+how;как;0
+huge;огромный;0
+hungry;голодный;0
+hunter;охотник;0
+ice;лед;0
+immutable;неизменный;0
+in east London;в восточной части Лондона;0
+in front of;перед;0
+in the rain;под дождем;0
+in the shade;в тени;0
+in the street;на улице;0
+in the sun;на солнце;0
+in the tree;на дереве;0
+increment;прирост;0
+inner;внутренний;0
+insect;насекомое;0
+it’s;это есть;0
+it’s good for me;это хорошо для меня;0
+it’s great;это здорово;0
+jacket;куртка;0
+jam;варенье;0
+job;работа, труд;0
+jug [dzag];кувшин;0
+juicy;сочный;0
+kennel;конура;0
+kettle;чайник, котелок;0
+kind;добрый;0
+kinds of;виды чего-либо;0
+kitchen;кухня;0
+knife, knives;нож, ножи;0
+lake;озеро;0
+large office;большой офис;0
+last;последний;0
+late;поздно;0
+law;право, закон;0
+lazy;ленивый;0
+leaf, leaves;лист, листья;0
+leg;нога;0
+let us;давайте;0
+letter;буква;0
+lettuce;салат;0
+light;освещение, свет;0
+living room;гостиная, общая комната;0
+log;бревно;0
+long;длинный;0
+lovely;прекрасный, красивый;1
+lucky;повезло;0
+magazine;журнал;0
+market;рынок;0
+may;можно;0
+may be;может быть;0
+maybe;может быть (наречие);0
+merry;веселый;0
+middle aged;среднего возраста;0
+mouse, mice;мышь, мыши;0
+mouth;рот;0
+mushroom;гриб;0
+must;должен;0
+must be, probably;наверное;1
+near here;поблизости;0
+need;необходимость;0
+needle;иголка;0
+neighbor;сосед;0
+nest;гнездо;0
+nested;вложенные (файлы);0
+next to us;рядом с нами;1
+nice;милый;0
+no one;никто;0
+noise;шум;0
+not exactly;не совсем;1
+nothing much;ничего особенного;0
+noun;существительное;0
+nursery;детская;0
+o’clock;по часам(без указания минут);0
+of course;конечно;0
+offer;предложение, предлагает;1
+often;часто;0
+older;старше;0
+on the right;справа;1
+once a month;раз в месяц;0
+our;наш;0
+out of;из;0
+over there;вон там;1
+own;собственный;0
+pair;пара;0
+part time;неполный рабочий день;0
+pasta;макароны;0
+paw;лапа;0
+peas [pi:z];горох;0
+person;человек, личность, особа;0
+pickle;соленый огурец;0
+pigeons;голуби;0
+pine-tree;сосна;0
+plant;растение;0
+plate;тарелка;0
+plum;слива;0
+plural;множественное число;0
+pocket;карман;0
+poor;бедный;0
+porridge;каша;0
+postbox;почтовый ящик;0
+postcard;почтовая карточка, открытка;0
+preposition;предлог;1
+pretty;прелестная;0
+pronoun;местоимение;1
+proverb;пословица;1
+pupil;ученик;0
+puppy;щенок;0
+pyjamas;пижама;0
+queue;очередь;0
+quite;вполне, достаточно;1
+rabbit;кролик;0
+really;действительно;0
+rectangle;прямоугольник;0
+rectangular;прямоугольный;0
+requirements;требования;1
+rhyme;рифма;0
+ribbon;лента;0
+right;правильно, право;0
+ring;кольцо;0
+ripe;спелый;0
+roof;крыша;0
+round;круглый;0
+sad;грустный;0
+sandwich;бутерброд;0
+saucepan;кастрюля;0
+sausage;колбаса;0
+sauser;блюдце;0
+scarf;шарф;0
+scissors;ножницы;0
+seashore;морской берег;0
+secretary;секретарь, помощник;0
+self;само;0
+sentence;предложение;0
+shaggy;лохматый;0
+shape;форма;0
+sharp;острый;0
+she is fine;она в порядке;0
+ship;корабль;0
+shirt;рубашка;0
+shoes;туфли;0
+shop assistant;продавец;0
+shopping;покупки;0
+shore;берег;0
+short;короткий, низкий;0
+shorter;ниже (ростом);0
+shorts;шорты;0
+shoulders;плечи;0
+shower;душ;0
+shy;стеснительный;0
+sick;больной;0
+silly;глупый;0
+simple;простой;0
+singular;единственное число;0
+sink;раковина;0
+skin;кожа(человека);0
+skirt;юбка;0
+slowly;медленно;0
+small;маленький;0
+snake;змея;0
+so;итак, таким образом, поэтому;0
+soap;мыло;0
+socks;носки;0
+sofa;диван;0
+soft;мягкий;0
+some;некоторое количество;0
+someone, somebody;кто-то;0
+song;песня;0
+square;квадрат;0
+squirrel;белка;0
+stairs;лестница;0
+stamp;марка;0
+stick;палка;0
+stockings;чулки;0
+strong;сильный;0
+study hard;усердно учиться;1
+such;такой;0
+sure;конечно, непременно, безусловно;1
+swimming pool;бассейн;0
+syllable;слог;1
+tail;хвост;0
+tall;высокий;0
+tame;ручной;0
+teabag;чайный пакетик;0
+teenager;юноша, девушка;0
+terrible;страшный;1
+than;чем;0
+that;то, та, тот;0
+that’s all right;все в порядке;1
+that’s how we met;вот как мы встретились;0
+the moonlight;лунный свет;0
+the opposite of;антоним;0
+the same as...;такой же как...;0
+the sunshine;солнечный свет;0
+their;их;0
+then;затем;0
+there;там;0
+these;эти;0
+they;они;0
+they say;говорят (безличное);0
+thin;худой;0
+to think of a beautiful building;подумать о красивом здании;0
+thirsty;испытующий жажду;0
+this;это, этот, эта;0
+those;те;0
+though;хотя;0
+three nights a week;три ночи в неделю;0
+thumb;большой палец;0
+tiny;крошечный;1
+tired;утомленный;0
+to be afraid;бояться;1
+to add;добавлять;0
+to ask;спрашивать, попросить(что л, сделать что л);0
+to be angry with;сердиться на;0
+to be good at something;быть способным к чему-либо;1
+to be in London on business;быть в Лондоне по делу;0
+to belong;принадлежать;1
+to bite;кусаться;0
+to boil;кипятить;0
+to bring;приносить;1
+to call;называть;1
+to catch;ловить, поймать;0
+to climb;забираться;0
+to close;закрывать;0
+to come;приходить;0
+to come in;входить;0
+to compare;сравнивать;1
+to cook;готовить, стряпать;0
+to count;считать;0
+to crawl;ползать;0
+to draw, to paint;рисовать;0
+to earn;зарабатывать;0
+to eat;кушать;0
+to enjoy;получать удовольствие;0
+to execute;выполнять;1
+to fall;падать;0
+to feel;чувствовать;0
+to find;найти;0
+to forget;забывать;1
+to get home;добраться домой;0
+to get up;вставать (с постели);0
+to give;давать;0
+to go;идти, ехать, двигаться;0
+to go back;вернуться назад;0
+to go for a meal;пойти на обед;1
+to go on holiday;уходить в отпуск;1
+to guess;отгадывать;0
+to happen;происходить;1
+to hear;слышать;0
+to hug;обнять;0
+to interrupt;прерывать;1
+to invoke;вызывать;1
+to keep;хранить, держать;0
+to knock;стучать;0
+to laugh;смеяться;0
+to learn;учиться;0
+to leave;покидать, уходить из;0
+to lend;давать взаймы;0
+to lie;лежать;0
+to like;любить, нравиться;0
+to listen;слушать, выслушать;0
+to listen to music;слушать музыку;0
+to live;жить;0
+to look;смотреть, выглядеть;0
+to look after him;ухаживать за ним;0
+to make;делать, создавать;0
+to mean;означать, значить;0
+to meet;встречать;0
+to my left;слева от меня;1
+to peep;подглядывать;0
+to pick;срывать;0
+to prefer;предпочитать;0
+to put down;положить;0
+to put on;надевать;0
+to read in bed;читать в кровати;0
+to return;возвращаться, возвращать, отдавать;0
+to ring;звенеть;0
+to run;бегать;0
+to say;сказать;1
+to scare;пугать;0
+to school;в школу;0
+to see;видеть;0
+to seem;казаться;0
+to sell;продавать;0
+to show;показать;0
+to sing;петь;0
+to skate;кататься на коньках;0
+to ski;кататься на лыжах;0
+to smile;улыбаться;0
+to speak, to talk;разговаривать;0
+to spell;писать, произносить слово по буквам;0
+to stand up;вставать;0
+to stay;остановиться;0
+to study;изучать, исследовать;0
+to swim;плавать;0
+to take;брать;1
+to take a photograph;фотографировать;0
+to the cinema;в кино (куда);0
+to think;думать;0
+to touch;трогать, касаться;0
+to turn on the hot water for;включить горячую воду для;0
+to use;использовать, применять;0
+to visit;навещать, посещать;0
+to wag;вилять (хвостом);0
+to wash;мыть;0
+to watch;смотреть, наблюдать;0
+to wear;носить, одеваться;0
+to whistle;свистеть;0
+to wink;подмигивать;0
+toes;кончики ног;0
+tomorrow;завтра;0
+tongue;язык(часть тела);0
+tonight;сегодня вечером;0
+too;слишком;0
+top;верхушка;0
+triangle;треугольник;0
+triangular;треугольный;0
+trouble;тревога;0
+trousers;брюки, штаны;0
+tummy;животик;0
+twenty five to;25 минут до;0
+ugly;уродливый;0
+under;под;0
+under five;до пяти лет;0
+upstairs;вверх по лестнице;0
+usualy;обычно;0
+value, meaning;значение;1
+verb;глагол;0
+very;очень;0
+volatile, mutable;изменчивый;0
+vowel;гласный звук;0
+wallet;бумажник;0
+wardrobe;гардероб, платяной шкаф;0
+warm;тепло;0
+weak;слабый;0
+weekend;выходные дни;0
+well;хорошо;0
+wet;влажный, мокрый;0
+whale;кит;0
+what;что;0
+what is he?;кто он? по профессии;0
+when;когда;0
+where;где;0
+whereabouts;от куда именно, приблизительное местонахождение;0
+which;который, какой;0
+while;в то время как;0
+who;кто;0
+whose;чей, чье, чьи, чья;0
+wild;дикий;0
+will you come out?;не выйдешь ли ты?;0
+wing;крыло;0
+wise;мудрый;0
+with;с;0
+without;без;0
+witty;остроумный;0
+wood, forest;лес;0
+word;слово;0
+wrong;неправильно, неверный;0
+yard;двор;0
+you will have;ты будешь иметь, ты получишь;0
+young;молодой;0
+elder;старший из двух (по возрасту);0
+certainly;конечно, несомненно;1
+My watch is 10 minutes slow/fast.;Мои часы отстают на 10 мин.;0
+What is the time?;Который час?;0
+What time is it?;Сколько времени?;0
+At what time?;В котором часу?;0
+It is 10 minutes to 9;Сейчас без 10 минут 9;0
+branch;филиал;1
+I come home at 7;Я прихожу домой в 7;0
+That sounds nice.;(Звучит) прекрасно.;1
+seldom;редко;1
+reply;ответ;1
+a reply to a letter;ответ на письмо;1
+customer;заказчик, клиент, покупатель;1
+until;до (предлог, указывает на момент, вплоть до которого совершается действие);1
+to drive home;ехать домой;0
+to drive to the office;ехать в офис;0
+to visit friends;посещать друзей;0
+to play tennis;играть в теннис;0
+to play on the PC;играть на компьютере;0
+to work late;работать поздно;0
+to clean a house;чистить, убирать дом;0
+to eat out;кушать вне дома;0
+request/response;запрос/ответ;1
+still;все еще;1
+several;несколько;1
+into;в(предлог выражающий движение во внутрь);1
+pleasure;удовольствие;1
+to translate from French into English;переводить с французского на английский;0
+to discuss;обсуждать;0
+negotiations;переговоры;1
+I'm too tired to ...;Я слишком устал, чтобы ...;0
+It's a pleasure to speak English;Это приятно говорить по-английски;0
+with pleasure;с удовольствием;1
+further;в дальнейшем;1
+native;родной;1
+that's why;вот почему;0
+through;через;1
+appointment;деловая встреча;1
+order;заказ;1
+whom;кого;1
+to be on sale (The house is on sale);продаваться (Дом продается);1
+to produce;производить, выпускать;1
+equipment;оборудование;1
+to look through;просматривать;1
+to be interested in something;быть заинтересованным в чем-то;1
+latest (version);последний (версия);0
+event;событие;1
+urgent;срочный;1
+supply;поставка;1
+an order for computers;заказ на компьютеры;1
+the price for books;цена книги;1
+goods;товар;1
+the terms of the contract;условия договора;1
+payment;оплата, платеж;1
+shipment;отгрузка;1
+at the plant;на заводе;1
+production plant;завод-производитель;1
+to leave Odessa for London;уезжать из Одессы в Лондон;0
+to receive;получать;1
+enquiry (an enquiry for coffee);запрос;1
+to make an offer something to somebody;сделать предложение чего-то кому-то;1
+to make an appointment for Thursday at 7 o'clock;назначить встречу на четверг в 7 часов;1
+I'd like to speak to somebody.;Я хотел бы поговорить с кем-нибудь.;0
+them;им;0
+at the price of 20 dollars;по цене 20 долларов;1
+district;район(административный);1
+built-in;встроенный (мебель);1
+furniture;мебель;1
+there is no Place like Home;нет места лучше дома;1
+business matters;деловые вопросы;1
+rest;отдых;1
+When did you meet him last;Когда Вы встречались с ним последний раз;1
+to last;длиться, продолжаться;1
+How long did the film last?;Как долго продолжался фильм?;1
+not long ago;не так давно;1
+feature film;художественный фильм;1
+advertisement;реклама;1
+to advertise;рекламировать;1
+advertisement on TV;реклама на телевидении;1
+advertisement in a newspaper;реклама в газете;1
+What's the book about?;О чем эта книга?;1
+trade;сделка, торговля;1
+as long as;так долго как;1
+i don't go to the cinema as often as you do.;Я не хожу в кино так часто, как вы.;1
+No news is good news.;Отсутствие новостей - хорошая новость.;1
+what's on at the cinema;что идет в кинотеатре;1
+to start learning;начать учить;1
+amusing;забавный;1
+opinion;мнение, взгляд;1
+in my opinion;по моему мнению;1
+the room is full of furniture;комната полна мебели;1
+an action film;боевик;1
+horror;ужас;1
+to be close to;быть близко к (от);1
+in the original;в оригинале, в подлиннике;1
+to star in a film;играть главную роль в фильме;1
+Washington is not as so big as New York;Вашингтон не настолько велик, как Нью-Йорк;1
+feature;особенность;1
+to deploy;развернуть;1
+to append;присоединять;1
+distinct;особый, отдельный, отчетливый;1
+appear;появляться, казаться;1
+to exist;существовать;1
+intersect;пересекаться;1
+except;кроме;1
