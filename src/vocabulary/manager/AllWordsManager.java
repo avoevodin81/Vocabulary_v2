@@ -16,10 +16,10 @@ import java.util.TreeMap;
  */
 public class AllWordsManager {
 
-    private DBConnector dbConnector;
-    private ArrayList<Word> words;
-    private ResultSet res;
-    private Word word;
+    protected DBConnector dbConnector;
+    protected ArrayList<Word> words;
+    protected ResultSet res;
+    protected Word word;
     private int count;
 
     public int getCount(String tableName) {
@@ -110,7 +110,7 @@ public class AllWordsManager {
         return words;
     }
 
-    private void initList(String tableName) {
+    protected void initList(String tableName) {
         dbConnector = new DBConnector();
 
         words = new ArrayList<>();

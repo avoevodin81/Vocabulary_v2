@@ -1,7 +1,6 @@
 package vocabulary.manager;
 
-import vocabulary.frame.MainFrame;
-import vocabulary.sql.DBConnector;
+import vocabulary.frame.MainFrame2;
 
 
 /**
@@ -10,7 +9,7 @@ import vocabulary.sql.DBConnector;
 public class StartVocabulary {
     public static void main(String[] args) {
 
-        MainFrame mainFrame = new MainFrame();
+        MainFrame2 mainFrame = new MainFrame2();
 
     }
 }

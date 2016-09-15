@@ -14,7 +14,7 @@ public class InsertManager {
         dbConnector.exitDB();
     }
 
-    private String comaSearch(String s) {
+    protected String comaSearch(String s) {
         return s.replaceAll("\'", "\'\'");
     }
 }

@@ -21,9 +21,9 @@ import java.util.ArrayList;
  */
 public class MainFrame extends JFrame {
 
-    private Button editButton = new Button("Edit/Add/Delete");
-    private Button importButton = new Button("Import");
-    private Button loadButton = new Button("Load");
+    protected Button editButton = new Button("Edit/Add/Delete");
+    protected Button importButton = new Button("Import");
+    protected Button loadButton = new Button("Load");
     private Button remain = new Button("Remain");
     private Button vocSize = new Button("Total size");
     private Button engB = new Button("English word");
@@ -31,23 +31,23 @@ public class MainFrame extends JFrame {
     private Button nextB = new Button("Next word");
     private Button repeatB = new Button("Repeat word");
     private Button showAllB = new Button("Show all");
-    private Button loadIDB = new Button("Load ID");
-    private JLabel engL = new JLabel();
-    private JLabel rusL = new JLabel();
-    private JComboBox comboBox = new JComboBox(new String[]{"All", "New", "Old"});
-    private ArrayList<Word> wordList = new ArrayList<>();
-    private Word word = null;
-    private String tableName = "vocabulary";
+    protected Button loadIDB = new Button("Load ID");
+    protected JLabel engL = new JLabel();
+    protected JLabel rusL = new JLabel();
+    protected JComboBox comboBox = new JComboBox(new String[]{"All", "New", "Old"});
+    protected ArrayList<Word> wordList = new ArrayList<>();
+    protected Word word = null;
+    protected String tableName = "vocabulary";
 
     public MainFrame() {
-        super("Vocabulary_v2.2.1");
+        super("Vocabulary_v2.3.0");
         setFrame();
         setElements();
         addListeners();
         setVisible(true);
     }
 
-    private void setFrame() {
+    protected void setFrame() {
 
         setSize(700, 700);
         setLocationRelativeTo(null);
@@ -56,7 +56,7 @@ public class MainFrame extends JFrame {
         setLayout(new GridLayout(6, 2, 10, 10));
     }
 
-    private void setElements() {
+    protected void setElements() {
         JPanel langPanel = new JPanel();
         langPanel.setLayout(new GridLayout(1, 2, 10, 10));
         engL.setHorizontalAlignment(JLabel.CENTER);
@@ -102,7 +102,7 @@ public class MainFrame extends JFrame {
     }
 
 
-    private void addListeners() {
+    protected void addListeners() {
         loadIDB.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

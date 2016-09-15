@@ -7,20 +7,22 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
 import java.util.ArrayList;
 
 /**
  * Created by Test on 09.05.2016.
  */
 public class ChangeWordFrame extends JFrame {
-    private ArrayList<Word> words;
-    private Word word;
-    private JLabel label = new JLabel();
-    private JTextField rusF = new JTextField();
-    private JTextField engF = new JTextField();
-    private JComboBox comboBox = new JComboBox(new String[]{"true", "false", "delete"});
-    private Button changeButton = new Button("Edit/Add/Delete");
-    private String tableName = "vocabulary";
+    protected ArrayList<Word> words;
+    protected Word word;
+    protected JLabel label = new JLabel();
+    protected JTextField rusF = new JTextField();
+    protected JTextField engF = new JTextField();
+    protected JComboBox comboBox = new JComboBox(new String[]{"true", "false", "delete"});
+    protected Button changeButton = new Button("Edit/Add/Delete");
+    protected String tableName = "vocabulary";
 
     public ChangeWordFrame(Word word) throws HeadlessException {
         super("Change");
@@ -55,9 +57,21 @@ public class ChangeWordFrame extends JFrame {
         label.setHorizontalAlignment(SwingConstants.CENTER);
         engF.setHorizontalAlignment(JTextField.CENTER);
         rusF.setHorizontalAlignment(JTextField.CENTER);
+        if (engF.getText().equals("")) {
+            engF.setForeground(Color.GRAY);
+            engF.setText("English word");
+        }
+        if (rusF.getText().equals("")) {
+            rusF.setForeground(Color.GRAY);
+            rusF.setText("Russian word");
+        }
+        if (label.getText().equals("")){
+            label.setText("id");
+        }
+
     }
 
-    private void setElements() {
+    protected void setElements() {
 
         setSize(700, 90);
         setLocationRelativeTo(null);
@@ -80,7 +94,7 @@ public class ChangeWordFrame extends JFrame {
         return word;
     }
 
-    private void addListeners() {
+    protected void addListeners() {
         changeButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -120,6 +134,39 @@ public class ChangeWordFrame extends JFrame {
                 }
             }
         });
+        engF.addFocusListener(new FocusListener() {
+            @Override
+            public void focusGained(FocusEvent e) {
+                if (engF.getText().equals("English word")) {
+                    engF.setForeground(Color.BLACK);
+                    engF.setText("");
+                }
+            }
 
+            @Override
+            public void focusLost(FocusEvent e) {
+                if (engF.getText().equals("")) {
+                    engF.setForeground(Color.GRAY);
+                    engF.setText("English word");
+                }
+            }
+        });
+        rusF.addFocusListener(new FocusListener() {
+            @Override
+            public void focusGained(FocusEvent e) {
+                if (rusF.getText().equals("Russian word")) {
+                    rusF.setForeground(Color.BLACK);
+                    rusF.setText("");
+                }
+            }
+
+            @Override
+            public void focusLost(FocusEvent e) {
+                if (rusF.getText().equals("")) {
+                    rusF.setForeground(Color.GRAY);
+                    rusF.setText("Russian word");
+                }
+            }
+        });
     }
 }

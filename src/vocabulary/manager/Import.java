@@ -14,7 +14,7 @@ import java.io.IOException;
  * Created by Test on 12.05.2016.
  */
 public class Import {
-    private String tableName;
+    protected String tableName;
 
     public Import(String tableName) {
         this.tableName = tableName;
