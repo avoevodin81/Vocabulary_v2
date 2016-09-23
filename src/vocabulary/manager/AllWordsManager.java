@@ -22,9 +22,9 @@ public class AllWordsManager {
     protected Word word;
     private int count;
 
-    public int getCount(String tableName) {
+    public int getCount(String queryRequest) {
         dbConnector = new DBConnector();
-        res = dbConnector.query("SELECT COUNT(*) FROM " + tableName);
+        res = dbConnector.query(queryRequest);
         try {
             while (res.next()) {
                 count = res.getInt(1);
@@ -34,6 +34,19 @@ public class AllWordsManager {
             JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
         }
         return count;
+    }
+
+    public String getTotalSize(String tableName) {
+        String totalSize = "";
+
+        String total = "SELECT COUNT(*) FROM " + tableName;
+        String totalNew = "SELECT COUNT(*) FROM " + tableName + " WHERE new = 1";
+        String totalOld = "SELECT COUNT(*) FROM " + tableName + " WHERE new = 0";
+
+        totalSize = getCount(total) + " - all,\n" +
+                getCount(totalNew) + " - new,\n" +
+                getCount(totalOld) + " - old.";
+        return totalSize;
     }
 
     public String[][] getAllTableWords(String tableName) {

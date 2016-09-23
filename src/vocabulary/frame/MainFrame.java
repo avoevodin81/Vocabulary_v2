@@ -188,7 +188,7 @@ public class MainFrame extends JFrame {
         vocSize.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, new AllWordsManager().getCount(tableName) + " words.");
+                JOptionPane.showMessageDialog(null, new AllWordsManager().getTotalSize(tableName));
             }
         });
         remain.addActionListener(new ActionListener() {
