@@ -10,3 +10,18 @@ create table vocabulary
  new bit NOT NULL,
  PRIMARY KEY (wordID)
 )engine=InnoDB;
+
+v3.0.0
+
+CREATE DATABASE vocabulary DEFAULT CHARACTER SET 'utf8';
+
+USE vocabulary;
+
+create table vocabulary
+(
+ wordID int unsigned not null auto_increment,
+ english varchar(255) not null,
+ russian varchar(255) not null,
+ new varchar(255) not null,
+ PRIMARY KEY (wordID)
+)engine=InnoDB;

@@ -7,8 +7,15 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Scanner;
 
 public class MainFrame2 extends MainFrame {
+
+
 
     private Button openBrowserButton;
 
@@ -23,6 +30,7 @@ public class MainFrame2 extends MainFrame {
 
     @Override
     protected void setElements() {
+        initComboBox();
         super.setElements();
         JPanel urlPanel = new JPanel();
         urlPanel.setLayout(new GridLayout(1, 1, 10, 10));
@@ -50,5 +58,19 @@ public class MainFrame2 extends MainFrame {
                 }
             }
         });
+    }
+
+    private void initComboBox () {
+        ArrayList<String> filters = new ArrayList<>();
+        try (Scanner scn = new Scanner(new File("Filters.txt"))) {
+            while (scn.hasNext()){
+                filters.add(scn.next());
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong! " + e.toString());
+        }
+        filter = filters.toArray(new String[filters.size()]);
+        comboBox = new JComboBox(filter);
     }
 }

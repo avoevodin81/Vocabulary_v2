@@ -7,13 +7,13 @@ public class Word {
     int id;
     String eng;
     String rus;
-    boolean isNew;
+    String filter;
 
-    public Word(int id, String eng, String rus, boolean isNew) {
+    public Word(int id, String eng, String rus, String filter) {
         this.id = id;
         this.eng = eng;
         this.rus = rus;
-        this.isNew = isNew;
+        this.filter = filter;
     }
 
     public int getId() {
@@ -40,12 +40,12 @@ public class Word {
         this.rus = rus;
     }
 
-    public boolean isNew() {
-        return isNew;
+    public String getFilter() {
+        return filter;
     }
 
-    public void setNew(boolean aNew) {
-        isNew = aNew;
+    public void setFilter(String filter) {
+        this.filter = filter;
     }
 
     @Override
@@ -54,7 +54,7 @@ public class Word {
                 "id=" + id +
                 ", eng='" + eng + '\'' +
                 ", rus='" + rus + '\'' +
-                ", isNew=" + isNew +
+                ", filter=" + filter +
                 '}';
     }
 

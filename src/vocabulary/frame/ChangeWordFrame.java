@@ -23,9 +23,11 @@ public class ChangeWordFrame extends JFrame {
     protected JComboBox comboBox = new JComboBox(new String[]{"true", "false", "delete"});
     protected Button changeButton = new Button("Edit/Add/Delete");
     protected String tableName = "vocabulary";
+    protected String[] filter = new String[10];
 
-    public ChangeWordFrame(Word word) throws HeadlessException {
+    public ChangeWordFrame(Word word, String[] filter) throws HeadlessException {
         super("Change");
+        this.filter = changeFilter(filter);
         this.word = word;
 
         label = new JLabel(String.valueOf(word.getId()));
@@ -34,20 +36,28 @@ public class ChangeWordFrame extends JFrame {
 
         init();
 
-        if (word.isNew()) {
-            comboBox.setSelectedIndex(0);
-        } else comboBox.setSelectedIndex(1);
-
         setElements();
+
+        for (int i = 0; i < filter.length; i++) {
+            if (word.getFilter().equals(filter[i])) {
+                comboBox.setSelectedIndex(i);
+            }
+        }
         addListeners();
         setVisible(true);
     }
 
-    public ChangeWordFrame(ArrayList<Word> words) throws HeadlessException {
+    public ChangeWordFrame(ArrayList<Word> words, String[] filter) throws HeadlessException {
         super("New");
         this.words = words;
+        this.filter = filter;
         init();
         setElements();
+        for (int i = 0; i < filter.length; i++){
+            if (filter[i].equals("New")){
+                comboBox.setSelectedIndex(i);
+            }
+        }
         addListeners();
         setVisible(true);
     }
@@ -65,13 +75,15 @@ public class ChangeWordFrame extends JFrame {
             rusF.setForeground(Color.GRAY);
             rusF.setText("Russian word");
         }
-        if (label.getText().equals("")){
+        if (label.getText().equals("")) {
             label.setText("id");
         }
 
     }
 
     protected void setElements() {
+
+        comboBox = new JComboBox(filter);
 
         setSize(700, 90);
         setLocationRelativeTo(null);
@@ -113,7 +125,7 @@ public class ChangeWordFrame extends JFrame {
                     if (eng.equals("") || rus.equals("")) {
                         JOptionPane.showMessageDialog(null, "Not all fields are filled");
                     } else {
-                        word = new Word(1, engF.getText(), rusF.getText(), Boolean.parseBoolean(comboBox.getSelectedItem().toString()));
+                        word = new Word(1, engF.getText(), rusF.getText(), comboBox.getSelectedItem().toString());
                         if (new AllWordsManager().isInBase(word, tableName)) {
                             JOptionPane.showMessageDialog(null, String.format("Word (%s or %s) is already in the dictionary!", engF.getText(), rusF.getText()));
                             word = null;
@@ -126,7 +138,7 @@ public class ChangeWordFrame extends JFrame {
                         dispose();
                     }
                 } else {
-                    new UpdateManager().update(new Word(Integer.parseInt(label.getText()), engF.getText(), rusF.getText(), Boolean.parseBoolean(comboBox.getSelectedItem().toString())), tableName);
+                    new UpdateManager().update(new Word(Integer.parseInt(label.getText()), engF.getText(), rusF.getText(), comboBox.getSelectedItem().toString()), tableName);
                     JOptionPane.showMessageDialog(null, String.format("Word (%s - %s) is updated", word.getEng(), word.getRus()));
                     word = null;
                     setVisible(false);
@@ -168,5 +180,15 @@ public class ChangeWordFrame extends JFrame {
                 }
             }
         });
+    }
+
+    private String[] changeFilter(String[] filter) {
+        String[] strings = new String[filter.length + 1];
+        for (int i = 0; i < filter.length; i++) {
+            strings[i] = filter[i];
+        }
+        strings[strings.length - 1] = "delete";
+
+        return strings;
     }
 }

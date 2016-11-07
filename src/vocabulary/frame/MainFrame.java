@@ -34,13 +34,14 @@ public class MainFrame extends JFrame {
     protected Button loadIDB = new Button("Load ID");
     protected JLabel engL = new JLabel();
     protected JLabel rusL = new JLabel();
-    protected JComboBox comboBox = new JComboBox(new String[]{"All", "New", "Old"});
+    protected String[] filter = new String[]{"All", "New", "Old"};
+    protected JComboBox comboBox = new JComboBox(filter);
     protected ArrayList<Word> wordList = new ArrayList<>();
     protected Word word = null;
     protected String tableName = "vocabulary";
 
     public MainFrame() {
-        super("Vocabulary_v2.3.0");
+        super("Vocabulary_v3.0.0");
         setFrame();
         setElements();
         addListeners();
@@ -134,7 +135,7 @@ public class MainFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 if (wordList.size() != 0 || word != null) {
                     wordList.add(word);
-                    word = new Word(1, null, null, false);
+                    word = new Word(1, null, null, null);
                     engL.setText("");
                     rusL.setText("");
                     word = null;
@@ -188,7 +189,7 @@ public class MainFrame extends JFrame {
         vocSize.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, new AllWordsManager().getTotalSize(tableName));
+                JOptionPane.showMessageDialog(null, new AllWordsManager().getTotalSize(tableName, filter));
             }
         });
         remain.addActionListener(new ActionListener() {
@@ -215,9 +216,9 @@ public class MainFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 ChangeWordFrame changeWord;
                 if (word == null) {
-                    changeWord = new ChangeWordFrame(wordList);
+                    changeWord = new ChangeWordFrame(wordList, filter);
                 } else {
-                    changeWord = new ChangeWordFrame(word);
+                    changeWord = new ChangeWordFrame(word, filter);
 
                     word = null;
                     engL.setText("");

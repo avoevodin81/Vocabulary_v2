@@ -36,16 +36,20 @@ public class AllWordsManager {
         return count;
     }
 
-    public String getTotalSize(String tableName) {
+    public String getTotalSize(String tableName, String[] filter) {
         String totalSize = "";
 
-        String total = "SELECT COUNT(*) FROM " + tableName;
-        String totalNew = "SELECT COUNT(*) FROM " + tableName + " WHERE new = 1";
-        String totalOld = "SELECT COUNT(*) FROM " + tableName + " WHERE new = 0";
+        String[] resultSrings = new String[filter.length];
 
-        totalSize = getCount(total) + " - all,\n" +
-                getCount(totalNew) + " - new,\n" +
-                getCount(totalOld) + " - old.";
+        String total = "SELECT COUNT(*) FROM " + tableName;
+
+        for (int i = 0; i < filter.length; i++){
+            resultSrings[i] = "SELECT COUNT(*) FROM " + tableName + " WHERE new = '" + filter[i] + "'";
+        }
+        totalSize = getCount(total) + " - All,\n";
+        for (int i = 1; i < filter.length; i++){
+            totalSize += getCount(resultSrings[i]) + " - " + filter[i] + ",\n";
+        }
         return totalSize;
     }
 
@@ -58,7 +62,7 @@ public class AllWordsManager {
         }
         int i = 0;
         for (Map.Entry<String, Word> x : map.entrySet()) {
-            mass[i] = new String[]{String.valueOf(x.getValue().getId()), x.getValue().getEng(), x.getValue().getRus(), String.valueOf(x.getValue().isNew()), String.valueOf(++i)};
+            mass[i] = new String[]{String.valueOf(x.getValue().getId()), x.getValue().getEng(), x.getValue().getRus(), String.valueOf(x.getValue().getFilter()), String.valueOf(++i)};
             //i++;
         }
         return mass;
@@ -90,7 +94,7 @@ public class AllWordsManager {
         try {
             while (res.next()) {
                 if (res.getInt(1) == id)
-                    this.word = new Word(res.getInt(1), res.getString(2), res.getString(3), res.getBoolean(4));
+                    this.word = new Word(res.getInt(1), res.getString(2), res.getString(3), res.getString(4));
                 dbConnector.exitDB();
                 return this.word;
             }
@@ -102,16 +106,13 @@ public class AllWordsManager {
         return null;
     }
 
-    public ArrayList<Word> loadAndShuffle(String tableName, String tipeWord) {
+    public ArrayList<Word> loadAndShuffle(String tableName, String filter) {
         initList(tableName);
-        for (int i = 0; i < words.size(); i++) {
-            if (tipeWord.equals("New")) {
-                if (!words.get(i).isNew()) {
-                    words.remove(i);
-                    i--;
-                }
-            } else if (tipeWord.equals("Old")) {
-                if (words.get(i).isNew()) {
+        if (!filter.equals("All")) {
+            for (int i = 0; i < words.size(); i++) {
+                if (words.get(i).getFilter().equals(filter)) {
+                    continue;
+                } else {
                     words.remove(i);
                     i--;
                 }
@@ -131,7 +132,7 @@ public class AllWordsManager {
         res = dbConnector.query("Select * From " + tableName);
         try {
             while (res.next()) {
-                words.add(new Word(res.getInt(1), res.getString(2), res.getString(3), res.getBoolean(4)));
+                words.add(new Word(res.getInt(1), res.getString(2), res.getString(3), res.getString(4)));
             }
         } catch (SQLException e) {
             e.printStackTrace();

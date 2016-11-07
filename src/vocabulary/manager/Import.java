@@ -38,7 +38,7 @@ public class Import {
                     if (temp == '\r') {
                         i++;
                         String[] strings = s.split(";");
-                        Word word = new Word(1, strings[0], strings[1], Boolean.parseBoolean(strings[2]));
+                        Word word = new Word(1, strings[0], strings[1], strings[2]);
                         new InsertManager().insert(word, tableName);
                         s = "";
                     } else if (temp == '\n') {

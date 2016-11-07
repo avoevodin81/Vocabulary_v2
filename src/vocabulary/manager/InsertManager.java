@@ -10,7 +10,7 @@ public class InsertManager {
 
     public void insert(Word word, String tableName){
         DBConnector dbConnector = new DBConnector();
-        dbConnector.updateQuery(String.format("INSERT INTO %s (english, russian, new) values ('%s', '%s', %b)", tableName, comaSearch(word.getEng()), comaSearch(word.getRus()), word.isNew()));
+        dbConnector.updateQuery(String.format("INSERT INTO %s (english, russian, new) values ('%s', '%s', '%s')", tableName, comaSearch(word.getEng()), comaSearch(word.getRus()), word.getFilter()));
         dbConnector.exitDB();
     }
 

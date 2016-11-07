@@ -1,769 +1,1067 @@
-Are you doing anything this evening?;вы делаете что-нибудь этим вечером?;false
-Are you going to James's party?;Вы собираетесь на вечеринку Джеймса?;false
-Can i have one?;можно мне взять один?;false
-Do you know anyone in London?;ты знаешь кого-нибудь в Лондоне?;false
-Do you know the spelling of Breakfast;ты знаешь как произносится по буквам BREAKFAST;false
-Do you want to come with me?;Вы хотите пойти со мной?;false
-Have you met Mr. Kelly's wife?;Вы уже знакомы с женой мистера Келли?;false
-I like meeting new people and I like talking to them;мне нравиться знакомиться с новыми людьми, и мне нравиться беседовать с ними;false
-I need money to live;я нуждаюсь в деньгах для жизни;false
-I need them;мне они нужны;false
-I sometimes speak to him on the phone;я иногда говорю с ним по телефону;false
-I stayed at my sister's house;я остановился в доме моей сестры;false
-I take my son to school;я отвожу моего сына в школу;false
-I work on Thursdays;я работаю по четвергам;false
-I'm going on my own;Я иду самостоятельно;false
-I'm going to...;я собираюсь...;false
-I'm really tired;я реально устаю;false
-I've just made some coffee. Would you like some?;Я только что приготовил кофе. Вы не хотели бы?;false
-It rains a lot in winter;дождей много зимой;false
-It's a beautiful day today;сегодня прекрасный день;false
-It’s very kind of you;это очень любезно с вашей стороны;false
-She always does everything herself;она всегда все делает сама;false
-She lives on her own now;она живет сама в настоящее время;false
-Somebody’s coming.;Кто-то приближается.;false
-T-shirt;футболка;false
-There’s a lot she can do, though she is only two;много чего она умеет делать, хотя ей только два;false
-UpperCase;верхний регистр;false
-We didn’t do any exercises.;мы не делали никаких упражнений.;false
-Where is you family from;от куда твоя семья;false
-Where’s Anna? Has anybody seen her?;Где Анна? Кто-нибудь видел ее?;false
-Whose umbrella is this?;Чей это зонтик?;false
-You can have some coffee, but I don’t want any.;Вы можете выпить кофе , но я не хочу вовсе.;false
-a quarter past;четверть после;false
-about;приблизительно, около, почти;false
-above;выше, над;true
-abroad;за границу;true
-access;доступ;false
-accident;авария;false
-accountant;бухгалтер;true
-action;действие;false
-actually;на самом деле;true
-adjective;прилагательное;true
-adult;взрослый человек;false
-adverb;наречие;true
-after;после, за;false
-afternoon;время после полудня, дневное время;false
-alarm clock;будильник;false
-all around;вокруг;true
-almost;почти;true
-already;уже;true
-also, as well;также (как правило стоит перед глаголом);true
-always;всегда;false
-amount, quantity;количество;true
-an example of something;пример чего-то;false
-angrily;сердито;false
-another;другой, еще один;true
-any;сколько-нибудь;false
-arm;рука;false
-armchair;кресло;false
-artist, painter;художник;false
-at;о пространстве, у, при, в, на;false
-at all;совсем;false
-at eleven-thirty;предлог, когда речь идет о времени;false
-at home, at school;дома, в школе;false
-at night;ночью;false
-at the cinema;в кино (где);false
-at the moment;на данный момент;false
-at the table;за столом;false
-at the top;на верху;false
-at work;на работе;false
-auntie;тетушка;false
-baby;младенец;false
-back;спина;false
-bag;сумка;false
-balloon;воздушный шар;false
-banana;банан;false
-bat;летучая мышь;false
-beak;клюв;false
-bedroom;спальня;false
-bee;пчела;false
-beef;говядина;false
-before;впереди, прежде, раньше;false
-behind;за;false
-bell;колокольчик;false
-belt;ремень;false
-berry, berries;ягода, ягоды;false
-best;лучший;false
-between;между;false
-biscuit;печенье;false
-board;доска, планка;false
-boiled;кипяченый;false
-bore;зануда;false
-bored;скучающий;true
-boring;надоедливый, неинтересный, скучный;true
-bottom;дно;false
-bowl;миска;false
-box;коробка;false
-brave;отважный, храбрый;false
-bread and butter;хлеб с маслом;false
-breakfast;завтрак;false
-building;здание;false
-bush;куст;false
-busy;занят;false
-butterfly;бабочка;false
-by;с помощью;false
-by day;днем;false
-cabinet;шкаф;false
-cage;клетка;false
-cake;торт, пирожное;false
-canvas;холст;false
-cap;кепка, шапка;false
-capital;столица;false
-cards;карты;false
-case, suitcase;чемодан;false
-cause;причина;true
-ceiling;потолок;false
-cereal;овсянка;false
-change;сдача;false
-chatting;болтать;false
-cheap;дешевый;false
-chemist, pharmacy;аптека;false
-chopsticks;китайские палочки;false
-circle;круг;false
-claw;коготь;false
-clean;чистый;false
-clever;умный;false
-clock;часы большие;false
-clothes;одежда;false
-cloud;облако;false
-coach;междугородний автобус;false
-coat;пальто, пиджак;false
-colorful;красочные;false
-concurrency;совпадение;true
-concurrent;действующий одновременно;true
-conjunction;союз;true
-consonant;согласный звук;false
-consumer;потребитель;true
-contraction;сокращение, сжатие;true
-cooker;плита;false
-cool;прохладный;false
-corner shop;магазин на углу;false
-countable;исчислимое;false
-cross;крест, скрещивание;false
-crow;ворона;false
-cucumber;огурец;false
-cup;чашка;false
-cupboard;буфет;false
-curly;кучерявая;false
-dear;дорогой;false
-decrement;уменьшение;true
-department store;универмаг;false
-describing;описания;false
-desk;письменный стол;false
-different;различный, разный;false
-difficult;трудный;false
-dinner;обед;false
-dirty;грязный;false
-dish;блюдо;false
-do the washing;стирать;false
-do the washing up;мыть посуду;false
-doll;кукла;false
-domestic animal;домашнее животное;false
-donkey;ослик;false
-downstairs;вниз по лестнице;false
-drawer;выдвижной ящик;false
-dress;платье;false
-drum;барабан;false
-during, for;в течение;false
-ear;ухо;false
-early;рано;false
-easy;легко;false
-elephant;слон;false
-else;еще;false
-envelope;конверт;false
-even;даже;true
-evening;вечер;false
-ever;когда-либо, когда-нибудь;false
-everywhere;везде;false
-exactly;именно;true
-example;пример, иллюстрация;false
-exercise;упражнение;false
-to expect, expected;ожидать, ожидаемый;true
-expressions;выражения;false
-eyes;глаза;false
-far;далеко;false
-fast, quickly;быстро;false
-fat;жирный;false
-favourite;любимый;false
-field;поле;false
-file cabinet;шкаф для документов;false
-fir-tree;ель;false
-firm;стойкий, настойчивый, строгий;true
-five past;пять минут после...;false
-flat;плоский, квартира;false
-floor;пол;false
-fluffy;пушистый;false
-fly, flies;муха, мухи;false
-food, meal;еда, пища;false
-for;для;false
-for about half an hour;в течение около половины часа;false
-for dinner;на обед;false
-for joy;от радости;false
-for that;за это;false
-for the first time;в первый раз;true
-foreign;иностранный, зарубежный;true
-foreigner;иностранец;false
-fork;вилка;false
-freezer;морозилка;false
-fridge;холодильник;false
-from;от;false
-from school;из школы;false
-front;передняя сторона, перед;false
-funny;смешно;false
-garden;сад;false
-general;общий;false
-generally;обычно, как правило, в целом;true
-gentle;благородный, вежливый;false
-glass;стекло, стакан;false
-glasses;очки;false
-gloves;перчатки;false
-goat;коза;false
-grain;зерно;false
-great;великий;false
-gun;пистолет, огнестр оружие, ружье;false
-hair;волосы;false
-half;половина;false
-ham;ветчина;false
-happy;счастливый;false
-hard;твердый;false
-hardly;вряд ли;true
-hare;заяц;false
-hat;шапка;false
-have a look;вот, смотри;false
-have some cheese;угощайся сыром;false
-head;голова;false
-heavy;тяжелый;false
-hen;курица;false
-here;вот, здесь;false
-here you are;вот, пожалуйста;true
-herself;сама;false
-hiding;прячется;false
-high;высокий (здание);false
-himself;сам;false
-honey;мед;false
-hostel;общежитиe;false
-hot;жаркий;false
-house;дом;false
-housewife;домохозяйка;false
-how;как;false
-huge;огромный;false
-hungry;голодный;false
-hunter;охотник;false
-ice;лед;false
-immutable;неизменный;false
-in east London;в восточной части Лондона;false
-in front of;перед;false
-in the rain;под дождем;false
-in the shade;в тени;false
-in the street;на улице;false
-in the sun;на солнце;false
-in the tree;на дереве;false
-increment;прирост;false
-inner;внутренний;false
-insect;насекомое;false
-it’s;это есть;false
-it’s good for me;это хорошо для меня;false
-it’s great;это здорово;false
-jacket;куртка;false
-jam;варенье;false
-job;работа, труд;false
-jug [dzag];кувшин;false
-juicy;сочный;false
-kennel;конура;false
-kettle;чайник, котелок;false
-kind;добрый;false
-kinds of;виды чего-либо;false
-kitchen;кухня;false
-knife, knives;нож, ножи;false
-lake;озеро;false
-large office;большой офис;false
-last;последний;false
-late;поздно;false
-law;право, закон;false
-lazy;ленивый;false
-leaf, leaves;лист, листья;false
-leg;нога;false
-let us;давайте;false
-letter;буква;false
-lettuce;салат;false
-light;освещение, свет;false
-living room;гостиная, общая комната;false
-log;бревно;false
-long;длинный;false
-lovely;прекрасный, красивый;true
-lucky;повезло;false
-magazine;журнал;false
-market;рынок;false
-may;можно;false
-may be;может быть;false
-maybe;может быть (наречие);false
-merry;веселый;false
-middle aged;среднего возраста;false
-mouse, mice;мышь, мыши;false
-mouth;рот;false
-mushroom;гриб;false
-must;должен;false
-must be, probably;наверное;true
-near here;поблизости;false
-need;необходимость;false
-needle;иголка;false
-neighbor;сосед;false
-nest;гнездо;false
-nested;вложенные (файлы);false
-next to us;рядом с нами;true
-nice;милый;false
-no one;никто;false
-noise;шум;false
-not exactly;не совсем;true
-nothing much;ничего особенного;false
-noun;существительное;false
-nursery;детская;false
-o’clock;по часам(без указания минут);false
-of course;конечно;false
-offer;предложение, предлагает;true
-often;часто;false
-older;старше;false
-on the right;справа;true
-once a month;раз в месяц;false
-our;наш;false
-out of;из;false
-over there;вон там;true
-own;собственный;false
-pair;пара;false
-part time;неполный рабочий день;false
-pasta;макароны;false
-paw;лапа;false
-peas [pi:z];горох;false
-person;человек, личность, особа;false
-pickle;соленый огурец;false
-pigeons;голуби;false
-pine-tree;сосна;false
-plant;растение;false
-plate;тарелка;false
-plum;слива;false
-plural;множественное число;false
-pocket;карман;false
-poor;бедный;false
-porridge;каша;false
-postbox;почтовый ящик;false
-postcard;почтовая карточка, открытка;false
-preposition;предлог;true
-pretty;прелестная;false
-pronoun;местоимение;true
-proverb;пословица;true
-pupil;ученик;false
-puppy;щенок;false
-pyjamas;пижама;false
-queue;очередь;false
-quite;вполне, достаточно;true
-rabbit;кролик;false
-really;действительно;false
-rectangle;прямоугольник;false
-rectangular;прямоугольный;false
-requirements;требования;false
-rhyme;рифма;false
-ribbon;лента;false
-right;правильно, право;false
-ring;кольцо;false
-ripe;спелый;false
-roof;крыша;false
-round;круглый;false
-sad;грустный;false
-sandwich;бутерброд;false
-saucepan;кастрюля;false
-sausage;колбаса;false
-sauser;блюдце;false
-scarf;шарф;false
-scissors;ножницы;false
-seashore;морской берег;false
-secretary;секретарь, помощник;false
-self;само;false
-sentence;предложение;false
-shaggy;лохматый;false
-shape;форма;false
-sharp;острый;false
-she is fine;она в порядке;false
-ship;корабль;false
-shirt;рубашка;false
-shoes;туфли;false
-shop assistant;продавец;false
-shopping;покупки;false
-shore;берег;false
-short;короткий, низкий;false
-shorter;ниже (ростом);false
-shorts;шорты;false
-shoulders;плечи;false
-shower;душ;false
-shy;стеснительный;false
-sick;больной;false
-silly;глупый;false
-simple;простой;false
-singular;единственное число;false
-sink;раковина;false
-skin;кожа(человека);false
-skirt;юбка;false
-slowly;медленно;false
-small;маленький;false
-snake;змея;false
-so;итак, таким образом, поэтому;false
-soap;мыло;false
-socks;носки;false
-sofa;диван;false
-soft;мягкий;false
-some;некоторое количество;false
-someone, somebody;кто-то;false
-song;песня;false
-square;квадрат;false
-squirrel;белка;false
-stairs;лестница;false
-stamp;марка;false
-stick;палка;false
-stockings;чулки;false
-strong;сильный;false
-study hard;усердно учиться;true
-such;такой;false
-sure;конечно, непременно, безусловно;true
-swimming pool;бассейн;false
-syllable;слог;false
-tail;хвост;false
-tall;высокий;false
-tame;ручной;false
-teabag;чайный пакетик;false
-teenager;юноша, девушка;false
-terrible;страшный;true
-than;чем;false
-that;то, та, тот;false
-that’s all right;все в порядке;false
-that’s how we met;вот как мы встретились;false
-the moonlight;лунный свет;false
-the opposite of;антоним;false
-the same as...;такой же как...;false
-the sunshine;солнечный свет;false
-their;их;false
-then;затем;false
-there;там;false
-these;эти;false
-they;они;false
-they say;говорят (безличное);false
-thin;худой;false
-to think of a beautiful building;подумать о красивом здании;false
-thirsty;испытующий жажду;false
-this;это, этот, эта;false
-those;те;false
-though;хотя;false
-three nights a week;три ночи в неделю;false
-thumb;большой палец;false
-tiny;крошечный;true
-tired;утомленный;false
-to be afraid of smth.;бояться чего-то;true
-to add;добавлять;false
-to ask;спрашивать, попросить(что л, сделать что л);false
-to be angry with;сердиться на;false
-to be good at something;быть способным к чему-либо;true
-to be in London on business;быть в Лондоне по делу;false
-to belong;принадлежать;true
-to bite;кусаться;false
-to boil;кипятить;false
-to bring, brought, brought;приносить;false
-to call;называть;false
-to catch;ловить, поймать;false
-to climb;забираться;false
-to close;закрывать;false
-to come;приходить;false
-to come in;входить;false
-to compare;сравнивать;true
-to cook;готовить, стряпать;false
-to count;считать;false
-to crawl;ползать;false
-to draw, to paint;рисовать;false
-to earn;зарабатывать;false
-to eat;кушать;false
-to enjoy;получать удовольствие;false
-to execute;выполнять;true
-to fall;падать;false
-to feel;чувствовать;false
-to find;найти;false
-to forget;забывать;false
-to get home;добраться домой;false
-to get up;вставать (с постели);false
-to give;давать;false
-to go;идти, ехать, двигаться;false
-to go back;вернуться назад;false
-to go for a meal;пойти на обед;false
-to go on holiday;уходить в отпуск;false
-to guess;отгадывать;false
-to happen;происходить;false
-to hear;слышать;false
-to hug;обнять;false
-to interrupt;прерывать;true
-to invoke;вызывать;true
-to keep;хранить, держать;false
-to knock;стучать;false
-to laugh;смеяться;false
-to learn;учиться;false
-to leave;покидать, уходить из;false
-to lend;давать взаймы;false
-to lie;лежать;false
-to like;любить, нравиться;false
-to listen;слушать, выслушать;false
-to listen to music;слушать музыку;false
-to live;жить;false
-to look;смотреть, выглядеть;false
-to look after him;ухаживать за ним;false
-to make;делать, создавать;false
-to mean;означать, значить;false
-to meet;встречать;false
-to my left;слева от меня;true
-to peep;подглядывать;false
-to pick;срывать;false
-to prefer;предпочитать;false
-to put down;положить;false
-to put on;надевать;false
-to read in bed;читать в кровати;false
-to return;возвращаться, возвращать, отдавать;false
-to ring;звенеть;false
-to run;бегать;false
-to say;сказать;false
-to scare;пугать;false
-to school;в школу;false
-to see;видеть;false
-to seem;казаться;false
-to sell;продавать;false
-to show;показать;false
-to sing, sang, sung;петь;true
-to skate;кататься на коньках;false
-to ski;кататься на лыжах;false
-to smile;улыбаться;false
-to speak, to talk;разговаривать;false
-to spell, spelt, spelt;писать, произносить слово по буквам;true
-to stand up;вставать;false
-to stay;остановиться;false
-to study;изучать, исследовать;false
-to swim;плавать;false
-to take;брать;false
-to take a photograph;фотографировать;false
-to the cinema;в кино (куда);false
-to think, thought, thought;думать;false
-to touch;трогать, касаться;false
-to turn on the hot water for;включить горячую воду для;false
-to use;использовать, применять;false
-to visit;навещать, посещать;false
-to wag;вилять (хвостом);false
-to wash;мыть;false
-to watch;смотреть, наблюдать;false
-to wear;носить, одеваться;false
-to whistle;свистеть;false
-to wink;подмигивать;false
-toes;кончики ног;false
-tomorrow;завтра;false
-tongue;язык(часть тела);false
-tonight;сегодня вечером;false
-too;слишком;false
-top;верхушка;false
-triangle;треугольник;false
-triangular;треугольный;false
-trouble;тревога;false
-trousers;брюки, штаны;false
-tummy;животик;false
-twenty five to;25 минут до;false
-ugly;уродливый;false
-under;под;false
-under five;до пяти лет;false
-upstairs;вверх по лестнице;false
-usualy;обычно;false
-value, meaning;значение;true
-verb;глагол;false
-very;очень;false
-volatile, mutable;изменчивый;false
-vowel;гласный звук;false
-wallet;бумажник;false
-wardrobe;гардероб, платяной шкаф;false
-warm;тепло;false
-weak;слабый;false
-weekend;выходные дни;false
-well;хорошо;false
-wet;влажный, мокрый;false
-whale;кит;false
-what;что;false
-what is he?;кто он? по профессии;false
-when;когда;false
-where;где;false
-whereabouts;от куда именно, приблизительное местонахождение;false
-which;который, какой;false
-while;в то время как;false
-who;кто;false
-whose;чей, чье, чьи, чья;false
-wild;дикий;false
-will you come out?;не выйдешь ли ты?;false
-wing;крыло;false
-wise;мудрый;false
-with;с;false
-without;без;false
-witty;остроумный;false
-wood, forest;лес;false
-word;слово;false
-wrong;неправильно, неверный;false
-yard;двор;false
-you will have;ты будешь иметь, ты получишь;false
-young;молодой;false
-elder;старший из двух (по возрасту);false
-certainly;конечно, несомненно;true
-My watch is 10 minutes slow/fast.;Мои часы отстают на 10 мин.;false
-What is the time?;Который час?;false
-What time is it?;Сколько времени?;false
-At what time?;В котором часу?;false
-It is 10 minutes to 9;Сейчас без 10 минут 9;false
-branch;филиал;true
-I come home at 7;Я прихожу домой в 7;false
-That sounds nice.;(Звучит) прекрасно.;false
-seldom;редко;true
-reply;ответ;true
-a reply to a letter;ответ на письмо;false
-customer;заказчик, клиент, покупатель;true
-until;до (предлог, указывает на момент, вплоть до которого совершается действие);false
-to drive home;ехать домой;false
-to drive to the office;ехать в офис;false
-to visit friends;посещать друзей;false
-to play tennis;играть в теннис;false
-to play on the PC;играть на компьютере;false
-to work late;работать поздно;false
-to clean a house;чистить, убирать дом;false
-to eat out;кушать вне дома;false
-request/response;запрос/ответ;true
-still;все еще;true
-several;несколько;true
-into;в(предлог выражающий движение во внутрь);false
-pleasure;удовольствие;false
-to translate from French into English;переводить с французского на английский;false
-to discuss;обсуждать;false
-negotiations;переговоры;true
-I'm too tired to ...;Я слишком устал, чтобы ...;false
-It's a pleasure to speak English;Это приятно говорить по-английски;false
-with pleasure;с удовольствием;false
-further;в дальнейшем;true
-native;родной;true
-that's why;вот почему;false
-through;через;true
-appointment;деловая встреча;true
-order;заказ;true
-whom;кого;true
-to be on sale (The house is on sale);продаваться (Дом продается);true
-to produce;производить, выпускать;false
-equipment;оборудование;false
-to look through;просматривать;true
-to be interested in something;быть заинтересованным в чем-то;true
-latest (version);последний (версия);false
-event;событие;true
-urgent;срочный;true
-supply;поставка;true
-an order for computers;заказ на компьютеры;true
-the price for books;цена книги;true
-goods;товар;false
-the terms of the contract;условия договора;true
-payment;оплата, платеж;false
-shipment;отгрузка;true
-at the plant;на заводе;false
-production plant;завод-производитель;false
-to leave Odessa for London;уезжать из Одессы в Лондон;false
-to receive;получать;true
-enquiry (an enquiry for coffee);запрос;true
-to make an offer something to somebody;сделать предложение чего-то кому-то;true
-to make an appointment for Thursday at 7 o'clock;назначить встречу на четверг в 7 часов;true
-I'd like to speak to somebody.;Я хотел бы поговорить с кем-нибудь.;false
-them;им;false
-at the price of 20 dollars;по цене 20 долларов;true
-district;район(административный);true
-built-in;встроенный (мебель);false
-furniture;мебель;false
-there is no Place like Home;нет места лучше дома;true
-business matters;деловые вопросы;true
-rest;отдых;true
-When did you meet him last;Когда Вы встречались с ним последний раз;true
-to last;длиться, продолжаться;true
-How long did the film last?;Как долго продолжался фильм?;true
-not long ago;не так давно;true
-feature film;художественный фильм;false
-advertisement;реклама;false
-to advertise;рекламировать;false
-advertisement on TV;реклама на телевидении;true
-advertisement in a newspaper;реклама в газете;true
-What's the book about?;О чем эта книга?;true
-trade;сделка, торговля;true
-as long as;так долго как;true
-i don't go to the cinema as often as you do.;Я не хожу в кино так часто, как вы.;true
-No news is good news.;Отсутствие новостей - хорошая новость.;true
-what's on at the cinema;что идет в кинотеатре;true
-to start learning;начать учить;true
-amusing;забавный;true
-opinion;мнение, взгляд;true
-in my opinion;по моему мнению;true
-the room is full of furniture;комната полна мебели;false
-an action film;боевик;false
-horror;ужас;false
-to be close to;быть близко к (от);true
-in the original;в оригинале, в подлиннике;true
-to star in a film;играть главную роль в фильме;true
-Washington is not as so big as New York;Вашингтон не настолько велик, как Нью-Йорк;false
-feature;особенность;true
-to deploy;развернуть;true
-to append;присоединять;true
-distinct;особый, отдельный, отчетливый;true
-to appear;появляться, казаться;true
-to exist;существовать;true
-to intersect;пересекаться;true
-except;кроме;true
-subject;тема, предмет разговора;true
-to teach, taught, taught;учить, обучать;true
-bit;немного;true
-to be early, to come early;приходить рано;true
-in a week;через неделю;true
-pretty (I'm pretty tired today);довольно, достаточно;true
-lately;недавно, за последнее время;true
-closely;внимательно;true
-to study smth. closely;учить что-то внимательно;true
-to be of high quality;высокого качества;true
-to meet the requirements of smb.;отвечать чьим-либо требованиям;true
-to let;позволять, разрешать;true
-Let Anna go to London.;Пусть Анна поедет в Лондон;true
-Let me do it;Позволь мне сделать это;true
-yet;еще_;true
-to introduce;представлять;true
-to put smb. through;соединить по телефону;true
-to get smb. on the phone;дозвониться до кого-либо;true
-How's business?;Как дела?;false
-draft contract;проект контракта;true
-diary;дневник;false
-puddle;лужа;true
-to run along;убегать;true
-pant;тяжелое дыхание;true
-Goodness me;Боже мой;true
-mess;беспорядок;true
-to look at the mess you are in;смотреть в каком вы беспорядке;true
-to clean up;прибирать, убирать;true
-to sit next to smb.;сидеть рядом с кем-л;true
-to beg;умолять;true
-to share;делиться;true
-to throw;бросать;true
-to wave;махать;true
-wand;палочка;true
-to lick;облизывать;true
-draft;проект;true
-along;вдоль;true
-chest;грудь, грудная клетка;true
-cough;кашель;true
-parrot;попугай;true
-i am in a hurry;я спешу;true
-to pretend;претендовать, притвояться;true
-curtain;занавеска;true
-to suppose;предполагать;true
-polite;вежливый;true
-to wake, woke, woken;просыпаться;true
-suit;костюм;true
-to dress;одеваться;true
-mirror;зеркало;true
-to decide;решать;true
-to get out of bed;подниматься с постели;true
-shame;стыд, позор;true
-at last;наконец-то;true
-at least;как минимум, по крайней мере;true
+convenient flight;удобный рейс;Old
+Are you going to James’s party?;Вы собираетесь на вечеринку Джеймса?;Old
+Can i have one?;можно мне взять один?;Old
+Do you know anyone in London?;ты знаешь кого-нибудь в Лондоне?;Old
+Do you know the spelling of Breakfast;ты знаешь как произносится по буквам BREAKFAST;Old
+Do you want to come with me?;Вы хотите пойти со мной?;Old
+Have you met Mr. Kelly’s wife?;Вы уже знакомы с женой мистера Келли?;Old
+I like meeting new people and I like talking to them;мне нравиться знакомиться с новыми людьми, и мне нравиться беседовать с ними;Old
+I need money to live;я нуждаюсь в деньгах для жизни;Old
+I need them;мне они нужны;Old
+I sometimes speak to him on the phone;я иногда говорю с ним по телефону;Old
+I stayed at my sister’s house;я остановился в доме моей сестры;Old
+I take my son to school;я отвожу моего сына в школу;Old
+I work on Thursdays;я работаю по четвергам;Old
+I’m going on my own;Я иду самостоятельно;Old
+I’m going to...;я собираюсь...;Old
+I’m really tired;я реально устаю;Old
+I’ve just made some coffee. Would you like some?;Я только что приготовил кофе. Вы не хотели бы?;Old
+It rains a lot in winter;дождей много зимой;Old
+It’s a beautiful day today;сегодня прекрасный день;Old
+It’s very kind of you;это очень любезно с вашей стороны;Old
+She always does everything herself;она всегда все делает сама;Old
+She lives on her own now;она живет сама в настоящее время;Old
+Somebody’s coming.;Кто-то приближается.;Old
+T-shirt;футболка;Old
+There’s a lot she can do, though she is only two;много чего она умеет делать, хотя ей только два;Old
+UpperCase;верхний регистр;Old
+We didn’t do any exercises.;мы не делали никаких упражнений.;Old
+Where is you family from;от куда твоя семья;Old
+Where’s Anna? Has anybody seen her?;Где Анна? Кто-нибудь видел ее?;Old
+Whose umbrella is this?;Чей это зонтик?;Old
+You can have some coffee, but I don’t want any.;Вы можете выпить кофе , но я не хочу вовсе.;Old
+a quarter past;четверть после;Old
+about;приблизительно, около, почти;Old
+above;выше, над;Old
+abroad;за границу;Old
+access;доступ;Old
+accident;авария;Old
+accountant;бухгалтер;Old
+action;действие;Old
+actually;на самом деле;Old
+adjective;прилагательное;Old
+adult;взрослый человек;Old
+adverb;наречие;Old
+after;после, за;Old
+afternoon;время после полудня, дневное время;Old
+alarm clock;будильник;Old
+all around;вокруг;Old
+almost;почти;Old
+already;уже;Old
+also, as well;также (как правило стоит перед глаголом);Old
+always;всегда;Old
+amount, quantity;количество;Old
+an example of something;пример чего-то;Old
+angrily;сердито;Old
+another;другой, еще один;Old
+any;сколько-нибудь;Old
+arm;рука;Old
+armchair;кресло;Old
+artist, painter;художник;Old
+at;о пространстве, у, при, в, на;Old
+at all;совсем;Old
+at eleven-thirty;предлог, когда речь идет о времени;Old
+at home, at school;дома, в школе;Old
+at night;ночью;Old
+at the cinema;в кино (где);Old
+at the moment;на данный момент;Old
+at the table;за столом;Old
+at the top of;на верху;Old
+at work;на работе;Old
+auntie;тетушка;Old
+baby;младенец;Old
+back;спина;Old
+bag;сумка;Old
+balloon;воздушный шар;Old
+banana;банан;Old
+bat;летучая мышь;Old
+beak;клюв;Old
+bedroom;спальня;Old
+bee;пчела;Old
+beef;говядина;Old
+before;впереди, прежде, раньше;Old
+behind;за;Old
+bell;колокольчик;Old
+belt;ремень;Old
+berry, berries;ягода, ягоды;Old
+best;лучший;Old
+between;между;Old
+biscuit;печенье;Old
+board;доска, планка;Old
+boiled;кипяченый;Old
+bore;зануда;Old
+bored;скучающий;Old
+boring;надоедливый, неинтересный, скучный;Old
+bottom;дно;Old
+bowl;миска;Old
+box;коробка;Old
+brave;отважный, храбрый;Old
+bread and butter;хлеб с маслом;Old
+breakfast;завтрак;Old
+building;здание;Old
+bush;куст;Old
+busy;занят;Old
+butterfly;бабочка;Old
+by;с помощью;Old
+by day;днем;Old
+cabinet;шкаф;Old
+cage;клетка;Old
+cake;торт, пирожное;Old
+canvas;холст;Old
+cap;кепка, шапка;Old
+capital;столица;Old
+cards;карты;Old
+case, suitcase;чемодан;Old
+cause;причина;Old
+ceiling;потолок;Old
+cereal;овсянка;Old
+change;сдача;Old
+chatting;болтать;Old
+cheap;дешевый;Old
+chemist, pharmacy;аптека;Old
+chopsticks;китайские палочки;Old
+circle;круг;Old
+claw;коготь;Old
+clean;чистый;Old
+clever;умный;Old
+clock;часы большие;Old
+clothes;одежда;Old
+cloud;облако;Old
+coach;междугородний автобус;Old
+coat;пальто, пиджак;Old
+colorful;красочные;Old
+concurrency;совпадение;Old
+concurrent;действующий одновременно;Old
+conjunction;союз;Old
+consonant;согласный звук;Old
+consumer;потребитель;Old
+contraction;сокращение, сжатие;Old
+cooker;плита;Old
+cool;прохладный;Old
+corner shop;магазин на углу;Old
+countable;исчислимое;Old
+cross;крест, скрещивание;Old
+crow;ворона;Old
+cucumber;огурец;Old
+cup;чашка;Old
+cupboard;буфет;Old
+curly;кучерявая;Old
+dear;дорогой;Old
+decrement;уменьшение;Old
+department store;универмаг;Old
+describing;описания;Old
+desk;письменный стол;Old
+different;различный, разный;Old
+difficult;трудный;Old
+dinner;обед;Old
+dirty;грязный;Old
+dish;блюдо;Old
+do the washing;стирать;Old
+do the washing up;мыть посуду;Old
+doll;кукла;Old
+domestic animal;домашнее животное;Old
+donkey;ослик;Old
+downstairs;вниз по лестнице;Old
+drawer;выдвижной ящик;Old
+dress;платье;Old
+drum;барабан;Old
+during, for;в течение;Old
+ear;ухо;Old
+early;рано;Old
+easy;легко;Old
+elephant;слон;Old
+else;еще;Old
+envelope;конверт;Old
+even;даже;Old
+evening;вечер;Old
+ever;когда-либо, когда-нибудь;Old
+everywhere;везде;Old
+exactly;именно;Old
+example;пример, иллюстрация;Old
+exercise;упражнение;Old
+to expect, expected;ожидать, ожидаемый;Old
+expressions;выражения;Old
+eyes;глаза;Old
+far;далеко;Old
+fast, quickly;быстро;Old
+fat;жирный;Old
+favourite;любимый;Old
+field;поле;Old
+file cabinet;шкаф для документов;Old
+fir-tree;ель;Old
+firm;стойкий, настойчивый, строгий;Old
+five past;пять минут после...;Old
+flat;плоский, квартира;Old
+floor;пол;Old
+fluffy;пушистый;Old
+fly, flies;муха, мухи;Old
+food, meal;еда, пища;Old
+for;для;Old
+for about half an hour;в течение около половины часа;Old
+for dinner;на обед;Old
+for joy;от радости;Old
+for that;за это;Old
+for the first time;в первый раз;Old
+foreign;иностранный, зарубежный;Old
+foreigner;иностранец;Old
+fork;вилка;Old
+freezer;морозилка;Old
+fridge;холодильник;Old
+from;от;Old
+from school;из школы;Old
+front;передняя сторона, перед;Old
+funny;смешно;Old
+garden;сад;Old
+general;общий;Old
+generally;обычно, как правило, в целом;Old
+gentle;благородный, вежливый;Old
+glass;стекло, стакан;Old
+glasses;очки;Old
+gloves;перчатки;Old
+goat;коза;Old
+grain;зерно;Old
+great;великий;Old
+gun;пистолет, огнестр оружие, ружье;Old
+hair;волосы;Old
+half;половина;Old
+ham;ветчина;Old
+happy;счастливый;Old
+hard;твердый;Old
+hardly;вряд ли;Old
+hare;заяц;Old
+hat;шапка;Old
+have a look;вот, смотри;Old
+have some cheese;угощайся сыром;Old
+head;голова;Old
+heavy;тяжелый;Old
+hen;курица;Old
+here;вот, здесь;Old
+here you are;вот, пожалуйста;Old
+herself;сама;Old
+hiding;прячется;Old
+high;высокий (здание);Old
+himself;сам;Old
+honey;мед;Old
+hostel;общежитиe;Old
+hot;жаркий;Old
+house;дом;Old
+housewife;домохозяйка;Old
+how;как;Old
+huge;огромный;Old
+hungry;голодный;Old
+hunter;охотник;Old
+ice;лед;Old
+immutable;неизменный;Old
+in east London;в восточной части Лондона;Old
+in front of;перед;Old
+in the rain;под дождем;Old
+in the shade;в тени;Old
+in the street;на улице;Old
+in the sun;на солнце;Old
+in the tree;на дереве;Old
+increment;прирост;Old
+inner;внутренний;Old
+insect;насекомое;Old
+it’s;это есть;Old
+it’s good for me;это хорошо для меня;Old
+it’s great;это здорово;Old
+jacket;куртка;Old
+jam;варенье;Old
+job;работа, труд;Old
+jug;кувшин;Old
+juicy;сочный;Old
+kennel;конура;Old
+kettle;чайник, котелок;Old
+kind;добрый;Old
+kinds of;виды чего-либо;Old
+kitchen;кухня;Old
+knife, knives;нож, ножи;Old
+lake;озеро;Old
+large office;большой офис;Old
+last;последний;Old
+late;поздно;Old
+law;право, закон;Old
+lazy;ленивый;Old
+leaf, leaves;лист, листья;Old
+leg;нога;Old
+let us;давайте;Old
+letter;буква;Old
+lettuce;салат;Old
+light;освещение, свет;Old
+living room;гостиная, общая комната;Old
+log;бревно;Old
+long;длинный;Old
+lovely;прекрасный, красивый;Old
+lucky;повезло;Old
+magazine;журнал;Old
+market;рынок;Old
+may;можно;Old
+may be;может быть;Old
+maybe;может быть (наречие);Old
+merry;веселый;Old
+middle aged;среднего возраста;Old
+mouse, mice;мышь, мыши;Old
+mouth;рот;Old
+mushroom;гриб;Old
+must;должен;Old
+must be, probably;наверное;Old
+near here;поблизости;Old
+need;необходимость;Old
+needle;иголка;Old
+neighbor;сосед;Old
+nest;гнездо;Old
+nested;вложенные (файлы);Old
+next to us;рядом с нами;Old
+nice;милый;Old
+no one;никто;Old
+noise;шум;Old
+not exactly;не совсем;Old
+nothing much;ничего особенного;Old
+noun;существительное;Old
+nursery;детская;Old
+o’clock;по часам(без указания минут);Old
+of course;конечно;Old
+offer;предложение, предлагает;Old
+often;часто;Old
+older;старше;Old
+on the right;справа;Old
+once a month;раз в месяц;Old
+our;наш;Old
+out of;из;Old
+over there;вон там;Old
+own;собственный;Old
+pair;пара;Old
+part time;неполный рабочий день;Old
+pasta;макароны;Old
+paw;лапа;Old
+peas [pi:z];горох;Old
+person;человек, личность, особа;Old
+pickle;соленый огурец;Old
+pigeons;голуби;Old
+pine-tree;сосна;Old
+plant;растение;Old
+plate;тарелка;Old
+plum;слива;Old
+plural;множественное число;Old
+pocket;карман;Old
+poor;бедный;Old
+porridge;каша;Old
+postbox;почтовый ящик;Old
+postcard;почтовая карточка, открытка;Old
+preposition;предлог;Old
+pretty;прелестная;Old
+pronoun;местоимение;Old
+proverb;пословица;Old
+pupil;ученик;Old
+puppy;щенок;Old
+pyjamas;пижама;Old
+queue;очередь;Old
+quite;вполне, достаточно;Old
+rabbit;кролик;Old
+really;действительно;Old
+rectangle;прямоугольник;Old
+rectangular;прямоугольный;Old
+requirements;требования;Old
+rhyme;рифма;Old
+ribbon;лента;Old
+right;правильно, право;Old
+ring;кольцо;Old
+ripe;спелый;Old
+roof;крыша;Old
+round;круглый;Old
+sad;грустный;Old
+sandwich;бутерброд;Old
+saucepan;кастрюля;Old
+sausage;колбаса;Old
+saucer;блюдце;Old
+scarf;шарф;Old
+scissors;ножницы;Old
+seashore;морской берег;Old
+secretary;секретарь, помощник;Old
+self;само;Old
+sentence;предложение;Old
+shaggy;лохматый;Old
+shape;форма;Old
+sharp;острый;Old
+she is fine;она в порядке;Old
+ship;корабль;Old
+shirt;рубашка;Old
+shoes;туфли;Old
+shop assistant;продавец;Old
+shopping;покупки;Old
+shore;берег;Old
+short;короткий, низкий;Old
+shorter;ниже (ростом);Old
+shorts;шорты;Old
+shoulders;плечи;Old
+shower;душ;Old
+shy;стеснительный;Old
+sick;больной;Old
+silly;глупый;Old
+simple;простой;Old
+singular;единственное число;Old
+sink;раковина;Old
+skin;кожа(человека);Old
+skirt;юбка;Old
+slowly;медленно;Old
+small;маленький;Old
+snake;змея;Old
+so;итак, таким образом, поэтому;Old
+soap;мыло;Old
+socks;носки;Old
+sofa;диван;Old
+soft;мягкий;Old
+some;некоторое количество;Old
+someone, somebody;кто-то;Old
+song;песня;Old
+square;квадрат;Old
+squirrel;белка;Old
+stairs;лестница;Old
+stamp;марка;Old
+stick;палка;Old
+stockings;чулки;Old
+strong;сильный;Old
+study hard;усердно учиться;Old
+such;такой;Old
+sure;конечно, непременно, безусловно;Old
+swimming pool;бассейн;Old
+syllable;слог;Old
+tail;хвост;Old
+tall;высокий;Old
+tame;ручной;Old
+teabag;чайный пакетик;Old
+teenager;юноша, девушка;Old
+terrible;страшный;Old
+than;чем;Old
+that;то, та, тот;Old
+that’s all right;все в порядке;Old
+that’s how we met;вот как мы встретились;Old
+the moonlight;лунный свет;Old
+the opposite of;антоним;Old
+the same as...;такой же как...;Old
+the sunshine;солнечный свет;Old
+their;их;Old
+then;затем;Old
+there;там;Old
+these;эти;Old
+they;они;Old
+they say;говорят (безличное);Old
+thin;худой;Old
+to think of a beautiful building;подумать о красивом здании;Old
+thirsty;испытующий жажду;Old
+this;это, этот, эта;Old
+those;те;Old
+though;хотя;Old
+three nights a week;три ночи в неделю;Old
+thumb;большой палец;Old
+tiny;крошечный;Old
+tired;утомленный;Old
+to be afraid of smth.;бояться чего-то;Old
+to add;добавлять;Old
+to ask;спрашивать, попросить(что л, сделать что л);Old
+to be angry with;сердиться на;Old
+to be good at something;быть способным к чему-либо;Old
+to be in London on business;быть в Лондоне по делу;Old
+to belong;принадлежать;Old
+to bite;кусаться;Old
+to boil;кипятить;Old
+to bring, brought, brought;приносить;Old
+to call;называть;Old
+to catch;ловить, поймать;Old
+to climb;забираться;Old
+to close;закрывать;Old
+to come;приходить;Old
+to come in;входить;Old
+to compare;сравнивать;Old
+to cook;готовить, стряпать;Old
+to count;считать;Old
+to crawl;ползать;Old
+to draw, to paint;рисовать;Old
+to earn;зарабатывать;Old
+to eat;кушать;Old
+to enjoy;получать удовольствие;Old
+to execute;выполнять;Old
+to fall;падать;Old
+to feel;чувствовать;Old
+to find;найти;Old
+to forget;забывать;Old
+to get home;добраться домой;Old
+to get up;вставать (с постели);Old
+to give;давать;Old
+to go;идти, ехать, двигаться;Old
+to go back;вернуться назад;Old
+to go for a meal;пойти на обед;Old
+to go on holiday;уходить в отпуск;Old
+to guess;отгадывать;Old
+to happen;происходить;Old
+to hear;слышать;Old
+to hug;обнять;Old
+to interrupt;прерывать;Old
+to invoke;вызывать;Old
+to keep, kept, kept;хранить, держать;Old
+to knock;стучать;Old
+to laugh;смеяться;Old
+to learn;учиться;Old
+to leave;покидать, уходить из;Old
+to lend;давать взаймы;Old
+to lie;лежать;Old
+to like;любить, нравиться;Old
+to listen;слушать, выслушать;Old
+to listen to music;слушать музыку;Old
+to live;жить;Old
+to look;смотреть, выглядеть;Old
+to look after him;ухаживать за ним;Old
+to make;делать, создавать;Old
+to mean, meant, meant;означать, значить;Old
+to meet;встречать;Old
+to my left;слева от меня;Old
+to peep;подглядывать;Old
+to pick;срывать;Old
+to prefer;предпочитать;Old
+to put down;положить;Old
+to put on;надевать;Old
+to read in bed;читать в кровати;Old
+to return;возвращаться, возвращать, отдавать;Old
+to ring;звенеть;Old
+to run;бегать;Old
+to say;сказать;Old
+to scare;пугать;Old
+to school;в школу;Old
+to see;видеть;Old
+to seem;казаться;Old
+to sell, sold, sold;продавать;Old
+to show;показать;Old
+to sing, sang, sung;петь;Old
+to skate;кататься на коньках;Old
+to ski;кататься на лыжах;Old
+to smile;улыбаться;Old
+to speak, to talk;разговаривать;Old
+to spell, spelt, spelt;писать, произносить слово по буквам;Old
+to stand up;вставать;Old
+to stay;остановиться;Old
+to study;изучать, исследовать;Old
+to swim, swam, swum;плавать;Old
+to take, took, taken;брать;Old
+to take a photograph;фотографировать;Old
+to the cinema;в кино (куда);Old
+to think, thought, thought;думать;Old
+to touch;трогать, касаться;Old
+to turn on the hot water for;включить горячую воду для;Old
+to use;использовать, применять;Old
+to visit;навещать, посещать;Old
+to wag;вилять (хвостом);Old
+to wash;мыть;Old
+to watch;смотреть, наблюдать;Old
+to wear;носить, одеваться;Old
+to whistle;свистеть;Old
+to wink;подмигивать;Old
+toes;кончики ног;Old
+tomorrow;завтра;Old
+tongue;язык(часть тела);Old
+tonight;сегодня вечером;Old
+too;слишком;Old
+top;верхушка;Old
+triangle;треугольник;Old
+triangular;треугольный;Old
+trouble;тревога;Old
+trousers;брюки, штаны;Old
+tummy;животик;Old
+twenty five to;25 минут до;Old
+ugly;уродливый;Old
+under;под;Old
+under five;до пяти лет;Old
+upstairs;вверх по лестнице;Old
+usualy;обычно;Old
+value, meaning;значение;Old
+verb;глагол;Old
+very;очень;Old
+volatile, mutable;изменчивый;Old
+vowel;гласный звук;Old
+wallet;бумажник;Old
+wardrobe;гардероб, платяной шкаф;Old
+warm;тепло;Old
+weak;слабый;Old
+weekend;выходные дни;Old
+well;хорошо;Old
+wet;влажный, мокрый;Old
+whale;кит;Old
+what;что;Old
+what is he?;кто он? по профессии;Old
+when;когда;Old
+where;где;Old
+whereabouts;от куда именно, приблизительное местонахождение;Old
+which;который, какой;Old
+while;в то время как;Old
+who;кто;Old
+whose;чей, чье, чьи, чья;Old
+wild;дикий;Old
+will you come out?;не выйдешь ли ты?;Old
+wing;крыло;Old
+wise;мудрый;Old
+with;с;Old
+without;без;Old
+witty;остроумный;Old
+wood, forest;лес;Old
+word;слово;Old
+wrong;неправильно, неверный;Old
+yard;двор;Old
+you will have;ты будешь иметь, ты получишь;Old
+young;молодой;Old
+elder;старший из двух (по возрасту);Old
+certainly;конечно, несомненно;Old
+My watch is 10 minutes slow/fast.;Мои часы отстают на 10 мин.;Old
+What is the time?;Который час?;Old
+What time is it?;Сколько времени?;Old
+At what time?;В котором часу?;Old
+It is 10 minutes to 9;Сейчас без 10 минут 9;Old
+branch;филиал;Old
+I come home at 7;Я прихожу домой в 7;Old
+That sounds nice.;(Звучит) прекрасно.;Old
+seldom;редко;Old
+reply;ответ;Old
+a reply to a letter;ответ на письмо;Old
+customer;заказчик, клиент, покупатель;Old
+until;до (предлог, указывает на момент, вплоть до которого совершается действие);Old
+to drive home;ехать домой;Old
+to drive to the office;ехать в офис;Old
+to visit friends;посещать друзей;Old
+to play tennis;играть в теннис;Old
+to play on the PC;играть на компьютере;Old
+to work late;работать поздно;Old
+to clean a house;чистить, убирать дом;Old
+to eat out;кушать вне дома;Old
+request/response;запрос/ответ;Old
+still;все еще;Old
+several;несколько;Old
+into;в(предлог выражающий движение во внутрь);Old
+pleasure;удовольствие;Old
+to translate from French into English;переводить с французского на английский;Old
+to discuss;обсуждать;Old
+negotiations;переговоры;Old
+I’m too tired to ...;Я слишком устал, чтобы ...;Old
+It’s a pleasure to speak English;Это приятно говорить по-английски;Old
+with pleasure;с удовольствием;Old
+further;в дальнейшем;Old
+native;родной;Old
+that’s why;вот почему;Old
+through;через;Old
+appointment;деловая встреча;Old
+order;заказ;Old
+whom;кого;Old
+to be on sale (The house is on sale);продаваться (Дом продается);Old
+to produce;производить, выпускать;Old
+equipment;оборудование;Old
+to look through;просматривать;Old
+to be interested in something;быть заинтересованным в чем-то;Old
+latest (version);последний (версия);Old
+event;событие;Old
+urgent;срочный;Old
+supply;поставка;Old
+an order for computers;заказ на компьютеры;Old
+the price for books;цена книги;Old
+goods;товар;Old
+the terms of the contract;условия договора;Old
+payment;оплата, платеж;Old
+shipment;отгрузка;Old
+at the plant;на заводе;Old
+production plant;завод-производитель;Old
+to leave Odessa for London;уезжать из Одессы в Лондон;Old
+to receive;получать;Old
+enquiry (an enquiry for coffee);запрос;Old
+to make an offer something to somebody;сделать предложение чего-то кому-то;Old
+to make an appointment for Thursday at 7 o’clock;назначить встречу на четверг в 7 часов;Old
+I’d like to speak to somebody.;Я хотел бы поговорить с кем-нибудь.;Old
+them;им;Old
+at the price of 20 dollars;по цене 20 долларов;Old
+district;район(административный);Old
+built-in;встроенный (мебель);Old
+furniture;мебель;Old
+there is no Place like Home;нет места лучше дома;Old
+business matters;деловые вопросы;Old
+rest;отдых;Old
+When did you meet him last;Когда Вы встречались с ним последний раз;Old
+to last;длиться, продолжаться;Old
+How long did the film last?;Как долго продолжался фильм?;Old
+not long ago;не так давно;Old
+feature film;художественный фильм;Old
+advertisement;реклама;Old
+to advertise;рекламировать;Old
+advertisement on TV;реклама на телевидении;Old
+advertisement in a newspaper;реклама в газете;Old
+What’s the book about?;О чем эта книга?;Old
+trade;сделка, торговля;Old
+as long as;так долго как;Old
+i don’t go to the cinema as often as you do.;Я не хожу в кино так часто, как вы.;Old
+No news is good news.;Отсутствие новостей - хорошая новость.;Old
+what’s on at the cinema;что идет в кинотеатре;Old
+to start learning;начать учить;Old
+amusing;забавный;Old
+opinion;мнение, взгляд;Old
+in my opinion;по моему мнению;Old
+the room is full of furniture;комната полна мебели;Old
+an action film;боевик;Old
+horror;ужас;Old
+to be close to;быть близко к (от);Old
+in the original;в оригинале, в подлиннике;Old
+to star in a film;играть главную роль в фильме;Old
+Washington is not as so big as New York;Вашингтон не настолько велик, как Нью-Йорк;Old
+feature;особенность;Old
+to deploy;развернуть;Old
+to append;присоединять;Old
+distinct;особый, отдельный, отчетливый;Old
+to appear;появляться, казаться;Old
+to exist;существовать;Old
+to intersect;пересекаться;Old
+except;кроме;New
+subject;тема, предмет разговора;Old
+to teach, taught, taught;учить, обучать;Old
+bit;немного;Old
+to be early, to come early;приходить рано;Old
+in a week;через неделю;Old
+pretty (I’m pretty tired today);довольно, достаточно;Old
+lately;недавно, за последнее время;Old
+closely;внимательно;Old
+to study smth. closely;учить что-то внимательно;Old
+to be of high quality;высокого качества;Old
+to meet the requirements of smb.;отвечать чьим-либо требованиям;Old
+to let;позволять, разрешать;Old
+Let Anna go to London.;Пусть Анна поедет в Лондон;Old
+Let me do it;Позволь мне сделать это;Old
+yet;еще_;Old
+to introduce;представлять;Old
+to put smb. through;соединить по телефону;Old
+to get smb. on the phone;дозвониться до кого-либо;Old
+How’s business?;Как дела?;Old
+draft contract;проект контракта;Old
+diary;дневник;Old
+puddle;лужа;Old
+to run along;убегать;Old
+pant;тяжелое дыхание;Old
+Goodness me;Боже мой;Old
+mess;беспорядок;Old
+to look at the mess you are in;смотреть в каком вы беспорядке;Old
+to clean up;прибирать, убирать;Old
+to sit next to smb.;сидеть рядом с кем-л;Old
+to beg;умолять;Old
+to share;делиться;Old
+to throw;бросать;Old
+to wave;махать;Old
+wand;палочка;Old
+to lick;облизывать;Old
+draft;проект;Old
+along;вдоль;Old
+chest;грудь, грудная клетка;Old
+cough;кашель;Old
+parrot;попугай;Old
+i am in a hurry;я спешу;Old
+to pretend;претендовать, притвояться;Old
+curtain;занавеска;Old
+to suppose;предполагать;New
+polite;вежливый;Old
+to wake, woke, woken;просыпаться;Old
+suit;костюм;Old
+to dress;одеваться;Old
+mirror;зеркало;Old
+to decide;решать;Old
+to get out of bed;подниматься с постели;Old
+shame;стыд, позор;Old
+at last;наконец-то;Old
+at least;как минимум, по крайней мере;Old
+get married;жениться;Old
+especially;особенно;Old
+accomodation;размещение, номер в гостинице;Old
+sea side;морское побережье;Old
+to become, became, become;становиться;Old
+to go on a tour of Odessa;пойти на экскурсию (по к-либо стране);Old
+resort;курорт;Old
+polluted;загрязненный;Old
+you are welcome;пожалуйста;Old
+bunch of flowers;букет цветов;Old
+to be surprised;удивляться;Old
+asleep;спящий;Old
+awake;бодрствующий;Old
+at once;однажды, сразу же, тотчас же;Old
+opposite;напротив;Old
+to fall asleep;заснуть;Old
+nearly;около, почти, приблизительно;New
+to break, broke, broken;сломать;Old
+handsome;красивый;Old
+instead;вместо;Old
+to celebrate;праздновать;Old
+responsible;ответственность;New
+pleased;довольный;New
+suntan;загар;Old
+convenient;удобный;Old
+package tour;турпакет, организованная тур поездка;Old
+hitch hiking;автостопом;Old
+washbasin, basin;умывальник;Old
+exciting;захватывающий;Old
+although;несмотря на то что;New
+you look divine;Вы смотритесь божественно;Old
+neck;шея;Old
+to hit;ударить;Old
+to graduate;окончить (выпускник);Old
+to melt;плавиться, таять;Old
+frying pan;сковородка;Old
+adorable;обожаемый;Old
+gorgeous;безумно красивая;Old
+to be sorry for smth.;сожалеть;Old
+to be late for;опаздывать;Old
+to clarify;уточнять;New
+demand;спрос, требование;New
+to suit;устраивать, подходить;New
+attractive;привлекательный;New
+however;однако;New
+to sign;подписывать;Old
+case;случай;Old
+cushion;диванная подушка;Old
+to keep calm;сохранять спокойствие;New
+irresistible;неотразимый;Old
+be about to;собираться;New
+to ring, rang, rung;звонить;Old
+be absent from;отсутствовать, пропускать;Old
+waiter;официант;Old
+awful;ужасный;New
+to stand, stood, stood;стоять;Old
+good-looking;хорошо выглядящий;Old
+fellow;парень;Old
+shelf;полка;Old
+glad;довольный, счастливый;New
+be angry with;сердиться на, быть недовольным (кем-то);Old
+nephew;племянник;Old
+niece;племянница;Old
+bench;скамейка;Old
+to welcome;приветствовать;Old
+swimming trunks;плавки;Old
+be anxious about;беспокоиться о чём-л., из-за чего-л.;New
+journey;поездка;Old
+be anxious to;очень желать;New
+a lot of;много чего-то;Old
+find out more;узнать больше;New
+to win, won, won;победить, выиграть;Old
+to lose, lost, lost;терять;Old
+to draw, drew, drawn;рисовать, чертить;Old
+to be involved in;быть вовлеченным в;New
+sightseeing;осмотр достопримечательностей;Old
+grade;класс, оценка;New
+be covered with;затягиваться, покрываться (чем-либо);New
+be crowded with;быть переполненным кем-либо или чем-либо;New
+subway;метро;New
+ahead;впереди;New
+to be ahead of the others;быть впереди остальных;New
+be different from;отличаться от кого-либо или чего-либо;New
+spicy food;острая еда;New
+to spend on;тратить на;New
+monthly;ежемесячно;New
+have to;должен (прошлое - будущее);New
+should;должен, тебе следует;New
+to make smb. do smth.;заставлять что-либо делать;New
+to invent;изобретать;New
+inventor;изобретатель;New
+i shall be able to do smth.;я смогу сделать что-то;New
+i shall have to do smth.;я должен буду сделать что-то;New
+to pass an exam;сдать экзамен;New
+wood;дерево, матерьял;Old
+to waste;тратить;New
+to waste for smth. or smb.;ждать что-то, кого-то;New
+to practice;заниматься;New
+necessary;необходимо;New
+experience;опыт;New
+delay;задержка;New
+to process;обрабатывать;New
+common;общий, простой;New
+to miscalculate;просчитаться;New
+significant;значительный;New
+decimal point;десятичная точка;New
+to impact;влиять, воздействовать;New
+consequent;следствие;New
+be consequent loss of trust;быть следствием потери доверия;New
+due to several reasons;из-за, по нескольким причинам;New
+confusion in understanding;путаница в понимании;New
+misinterpretation of any value;неправильное толкование любого значения;New
+flaw;изъян, недостаток;New
+to perform its required function;выполнять требуемые функции;New
+to require;требовать;New
+statement;заявление;New
+definition;определение;New
+a defect encountered;дефект встречается;New
+condition;состояние, условие;New
+needs to be fulfilled;должно быть выполнено;New
+deviation;отклонение;New
+vise versa;наоборот;New
+particular report;конкретный доклад;New
+failure;сбой;New
+to lead;вести, руководить;New
+the food is delicious;еда очень вкусная;New
+i was told;мне сказали;New
+defects occur because;дефекты возникают из-за;New
+time pressure;спешка (вреия, давление);New
+complexity of code;сложность кода;New
+interaction;взаимодействие;New
+lack of clarity in requirements;отсутствие ясности в требованиях;New
+environment;окружающая среда;New
+can be caused by;может быть вызвано;New
+influence;влияние;New
+to include;включать, содержать в себе;New
+to state;утверждать, гласить;New
+boundary;граница, черта, межа;New
+to define;определять;New
+appropriate;соответствующий, подходящий;New
+desire;желание;New
+relative;относительный;New
+relationship;отношения;New
+amount of work;объем работы;New
+trace;след;New
+considerably increased;значительно увеличился;New
+confidence;уверенность;New
+reduce;уменьшить;New
+contribute;делать вклад;New
+reliable;надежный;New
+consistency;консистенция, последовательность;New
+durable;долговечный, прочный, длительного пользования;New
+maintenance services;поддержание, техническое обслуживание;New
+value;значение, стоимость;New
+mentioned above;упомянутое выше;New
+to provide;предоставлять;New
+assurance;гарантия;New
+proper;правильный, надлежащий;New
+external assessment;внешняя оценка;New
+to reject;отклонять, отказаться;New
+evaluation of software products;оценка программных продуктов;New
+purpose;цель;New
+satisfy specified requirements;удовлетворяют указанным требованиям;New
+to conduct;проводить, вести;New
+stakeholder;посредник;New
+to imply;подразумевать, означать;New
+evaluating testing criteria;оценка критериев тестирования;New
+useful;полезный;New
+Determine that software products satisfy specified requirements;Определить, что программные продукты удовлетворяют установленным требованиям;New
+fit for purpose;пригодный для целей;New
+presence;присутствие;New
+exhausting;изнурительный;New
+absence of errors fallacy;отсутствие ошибок заблуждение;New
+appropriate testing;надлежащее тестирование;New
+the principal objective of testing;основная цель тестирования;New
+feasible;выполнимый, осуществимый;New
+testing effort;усилие тестирования;New
+sample;образец, пример;New
+defined object;определенный объект;New
+goal;цель, задача;New
+contributes to finding;способствует поиску;New
+to distribute;распростронять, распределять;New
+to underlie;лежать в основе;New
+indeed;в самом деле, действительно;New
+eventually;в итоге;New
+to overcome;преодолевать;New
+hotspot;горячая точка;New
+to avoid;избегать;New
+to divide;делить;New
+within;в, в пределах, в течение;New
+overlap;перекрытие, совпадение, нахлестка;New
+in order to meet the objectives;в целях достижения целей;New
+ongoing activity;постоянная деятельность;New
+sailing;плаванье, мореходство;New
+design the tests;разработать тесты;New
+test environment set;набор для тестирования окружающей среды;New
+implementation;реализация, выполнение;New
+major tasks of implementation;основные задачи реализации;New
+test suite;набор тестов;New
+schedule;расписание, график;New
+to verify;проверять;New
+discrepancy;несоответствие;New
+evaluating exit criteria;оценки критериев выхода;New
+achievement;достижение;New
+mindset;образ мышления;New
+code of ethics;моральный кодекс;New
+employee;наемный рабочий;New
+judgement;суждение;New
+approach;подход;New
+ferry;паром;New
+the best way;лучший способ, лучший путь;New
+advantage;преимущество;New
+view;вид, пейзаж;New
+narrow;узкий;New
+after a while;через некоторое время;New
+space;пространство;New
+mandatory;обязательное;New
+a lot of space;много места;New
+try on;примерять, пробовать;New
+in the distance;на расстоянии;New
+the most important item;самый важный пункт;New
+to shake;трясти;New
+moustache and beard;усы и борода;New
+possession;владение;New
+like everyone else;как и все остальные;New
+so there you are;такие дела (идиома);New
+upset;рассториться;New
+to wish;желать;New
+incorrect statement;неверное утверждение;New
+complex systems interactions;сложные системы взаимодействия;New
+related work products;связанные рабочие продукты;New
+investigation;исследование, расследование;New
+to prevent;предотвращать;New
+related products;связанные, сопутствующие товары;New
+exploitation guide;руководство по эксплуатации;New
+on how to do smth.;о том, как сделать что-л.;New
+i wish you success;я желаю вам успеха;New
+alias;псевдоним;New
+arrange the meeting;организовать встречу;New
+regarding;относительно, в отношении;New
+stomach ache;боль в животе;New
+throw away;выбросить;New
+fried potatoes;жареная картошка;New
+grocery store;продуктовый магазин;New
+supper;ужин;New
+owner;владелец;New
+there are five of them;их пятеро;New
+superb;превосходный, великолепный;New
+concern;беспокойство, забота;New
+tangible;реальное, ощутимое;New
+responsibility;обязанность, ответственность;New
+encourage;поощрять, поддерживать;New
+to act;действовать, поступать;New
+manner;способ, метод;New
+to maintain;поддерживать, утверждать;New
+to subscribe;подписываться;New
+to promote;продвигать, способствовать, содействовать;New
+to be fair;быть справедливым;New
+cooperation;сотрудничество;New
+to participate;принимать участие;New
+to pertain;принадлежать, иметь отношение;New
+neither;никто из двух;New
+sense;смысл, чувство;New
+to store;хранить, накапливать;New
+vendor;поставщик, продавец;New
+strength;сила, преимущества;New
+undertaken to achieve an objective;предпринимаемый для достижения цели;New
+to conform;соответствовать;New
+to constrain;сдерживать, ограничивать, принуждать;New
+to refer;ссылаться, относиться, иметь отношение;New
+scope;масштаб, сфера, рамки, объем;New
+to represent;представлять, изображать;New
+upon all three constraints;на всех трех ограничениях;New
+evidence;доказательство, свидетельство;New
+to intend;намереваться, собираться, планировать;New
+to conceive;понимать, постигать;New
+to adopt;принимать, приемный, заимствованный;New
+the project aims;цель проекта;New
+numerous;многочисленный;New
+sequence;последовательность;New
+throughout;на всем протяжении, повсюду;New
+preferable;предпочтительный;New
+flexibility;гибкость;New
+efficiency;эффективность;New
+transparency;прозрачность;New
+predictability;предсказуемость;New
+controllability;контролируемость;New
+containment of risks;сдерживание рисков;New
+to allow;позволять;New
+to reflect;отражать;New
+flow;поток, течение;New
+uncertain requirements;неопределенные требования;New
+behavior;поведение, поступок;New
+against;в отношении, против, вопреки;New
+acquaintance;знакомство, ознакомление;New
+sophisticated architecture;сложная, продуманная архитектура;New
+suitable;подходящий;New
+challenge;вызов, сложная задача;New

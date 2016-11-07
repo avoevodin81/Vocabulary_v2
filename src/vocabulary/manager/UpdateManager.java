@@ -12,7 +12,7 @@ public class UpdateManager {
         DBConnector dbConnector = new DBConnector();
         dbConnector.updateQuery(String.format("UPDATE %s SET english = '%s' WHERE wordID = %d", tableName, comaSearch(word.getEng()), word.getId()));
         dbConnector.updateQuery(String.format("UPDATE %s SET russian = '%s' WHERE wordID = %d", tableName, comaSearch(word.getRus()), word.getId()));
-        dbConnector.updateQuery(String.format("UPDATE %s SET new = %b WHERE wordID = %d", tableName, word.isNew(), word.getId()));
+        dbConnector.updateQuery(String.format("UPDATE %s SET new = '%s' WHERE wordID = %d", tableName, word.getFilter(), word.getId()));
         dbConnector.exitDB();
     }
 
